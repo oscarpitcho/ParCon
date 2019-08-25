@@ -1,0 +1,1157 @@
+[2019-05-04 18:35:31,975] INFO org.github.dragos.vscode.Main$ - Starting server in /mnt/Shared/prog/cs206-7-actorbintree
+[2019-05-04 18:35:31,975] INFO org.github.dragos.vscode.Main$ - Starting server in /mnt/Shared/prog/cs206-7-actorbintree
+[2019-05-04 18:35:31,988] INFO org.github.dragos.vscode.Main$ - Classpath: /home/oscar/.vscode/extensions/dragos.scala-lsp-0.2.3/coursier
+[2019-05-04 18:35:31,988] INFO org.github.dragos.vscode.Main$ - Classpath: /home/oscar/.vscode/extensions/dragos.scala-lsp-0.2.3/coursier
+[2019-05-04 18:35:32,148] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 1202
+[2019-05-04 18:35:32,148] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 1202
+[2019-05-04 18:35:32,169] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":0,"method":"initialize","params":{"processId":8032,"rootPath":"/mnt/Shared/prog/cs206-7-actorbintree","rootUri":"file:///mnt/Shared/prog/cs206-7-actorbintree","capabilities":{"workspace":{"applyEdit":true,"didChangeConfiguration":{"dynamicRegistration":false},"didChangeWatchedFiles":{"dynamicRegistration":false},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true}},"textDocument":{"synchronization":{"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"dynamicRegistration":true,"completionItem":{"snippetSupport":true}},"hover":{"dynamicRegistration":true},"signatureHelp":{"dynamicRegistration":true},"references":{"dynamicRegistration":true},"documentHighlight":{"dynamicRegistration":true},"documentSymbol":{"dynamicRegistration":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"dynamicRegistration":true},"codeAction":{"dynamicRegistration":true},"codeLens":{"dynamicRegistration":true},"documentLink":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true}}},"trace":"off"}}
+[2019-05-04 18:35:32,169] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":0,"method":"initialize","params":{"processId":8032,"rootPath":"/mnt/Shared/prog/cs206-7-actorbintree","rootUri":"file:///mnt/Shared/prog/cs206-7-actorbintree","capabilities":{"workspace":{"applyEdit":true,"didChangeConfiguration":{"dynamicRegistration":false},"didChangeWatchedFiles":{"dynamicRegistration":false},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true}},"textDocument":{"synchronization":{"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"dynamicRegistration":true,"completionItem":{"snippetSupport":true}},"hover":{"dynamicRegistration":true},"signatureHelp":{"dynamicRegistration":true},"references":{"dynamicRegistration":true},"documentHighlight":{"dynamicRegistration":true},"documentSymbol":{"dynamicRegistration":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"dynamicRegistration":true},"codeAction":{"dynamicRegistration":true},"codeLens":{"dynamicRegistration":true},"documentLink":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true}}},"trace":"off"}}
+[2019-05-04 18:35:32,811] INFO org.github.dragos.vscode.EnsimeLanguageServer - Initialized with 8032, /mnt/Shared/prog/cs206-7-actorbintree, ClientCapabilities()
+[2019-05-04 18:35:32,811] INFO org.github.dragos.vscode.EnsimeLanguageServer - Initialized with 8032, /mnt/Shared/prog/cs206-7-actorbintree, ClientCapabilities()
+[2019-05-04 18:35:32,814] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - ensime.config = "/mnt/Shared/prog/cs206-7-actorbintree/.ensime" 
+[2019-05-04 18:35:32,814] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - ensime.config = "/mnt/Shared/prog/cs206-7-actorbintree/.ensime" 
+[2019-05-04 18:35:33,708] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+[2019-05-04 18:35:33,940] ERROR org.github.dragos.vscode.EnsimeLanguageServer - initializeEnsime Error: /mnt/Shared/prog/cs206-7-actorbintree/.ensime
+[2019-05-04 18:35:33,940] ERROR org.github.dragos.vscode.EnsimeLanguageServer - initializeEnsime Error: /mnt/Shared/prog/cs206-7-actorbintree/.ensime
+[2019-05-04 18:35:34,048] DEBUG langserver.core.MessageWriter - Content-Length: 146
+
+
+
+{"jsonrpc":"2.0","method":"window/showMessage","params":{"tpe":1,"message":"No .ensime file in directory. Run `sbt ensimeConfig` to create one."}}
+[2019-05-04 18:35:34,048] DEBUG langserver.core.MessageWriter - Content-Length: 146
+
+
+
+{"jsonrpc":"2.0","method":"window/showMessage","params":{"tpe":1,"message":"No .ensime file in directory. Run `sbt ensimeConfig` to create one."}}
+[2019-05-04 18:35:34,051] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","method":"window/showMessage","params":{"tpe":1,"message":"No .ensime file in directory. Run `sbt ensimeConfig` to create one."}}
+[2019-05-04 18:35:34,051] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","method":"window/showMessage","params":{"tpe":1,"message":"No .ensime file in directory. Run `sbt ensimeConfig` to create one."}}
+[2019-05-04 18:35:34,150] DEBUG langserver.core.MessageWriter - Content-Length: 441
+
+
+
+{"jsonrpc":"2.0","result":{"capabilities":{"textDocumentSync":1,"hoverProvider":true,"completionProvider":{"resolveProvider":false,"triggerCharacters":["."]},"definitionProvider":true,"referencesProvider":false,"documentHighlightProvider":false,"documentSymbolProvider":true,"workspaceSymbolProvider":false,"codeActionProvider":false,"documentFormattingProvider":false,"documentRangeFormattingProvider":false,"renameProvider":false}},"id":0}
+[2019-05-04 18:35:34,150] DEBUG langserver.core.MessageWriter - Content-Length: 441
+
+
+
+{"jsonrpc":"2.0","result":{"capabilities":{"textDocumentSync":1,"hoverProvider":true,"completionProvider":{"resolveProvider":false,"triggerCharacters":["."]},"definitionProvider":true,"referencesProvider":false,"documentHighlightProvider":false,"documentSymbolProvider":true,"workspaceSymbolProvider":false,"codeActionProvider":false,"documentFormattingProvider":false,"documentRangeFormattingProvider":false,"renameProvider":false}},"id":0}
+[2019-05-04 18:35:34,154] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":{"capabilities":{"textDocumentSync":1,"hoverProvider":true,"completionProvider":{"resolveProvider":false,"triggerCharacters":["."]},"definitionProvider":true,"referencesProvider":false,"documentHighlightProvider":false,"documentSymbolProvider":true,"workspaceSymbolProvider":false,"codeActionProvider":false,"documentFormattingProvider":false,"documentRangeFormattingProvider":false,"renameProvider":false}},"id":0}
+[2019-05-04 18:35:34,154] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":{"capabilities":{"textDocumentSync":1,"hoverProvider":true,"completionProvider":{"resolveProvider":false,"triggerCharacters":["."]},"definitionProvider":true,"referencesProvider":false,"documentHighlightProvider":false,"documentSymbolProvider":true,"workspaceSymbolProvider":false,"codeActionProvider":false,"documentFormattingProvider":false,"documentRangeFormattingProvider":false,"renameProvider":false}},"id":0}
+[2019-05-04 18:35:34,156] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 52
+[2019-05-04 18:35:34,156] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 52
+[2019-05-04 18:35:34,162] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"initialized","params":{}}
+[2019-05-04 18:35:34,162] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"initialized","params":{}}
+[2019-05-04 18:35:34,202] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification Initialized()
+[2019-05-04 18:35:34,202] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification Initialized()
+[2019-05-04 18:35:34,207] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 5336
+[2019-05-04 18:35:34,207] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 5336
+[2019-05-04 18:35:34,215] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala","languageId":"scala","version":2286,"text":"/**\n * Copyright (C) 2009-2013 Typesafe Inc. <http://www.typesafe.com>\n */\npackage actorbintree\n\nimport akka.actor._\nimport scala.collection.immutable.Queue\n\nobject BinaryTreeSet {\n\n  trait Operation {\n    def requester: ActorRef\n    def id: Int\n    def elem: Int\n  }\n\n  trait OperationReply {\n    def id: Int\n  }\n\n  /** Request with identifier `id` to insert an element `elem` into the tree.\n    * The actor at reference `requester` should be notified when this operation\n    * is completed.\n    */\n  case class Insert(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request with identifier `id` to check whether an element `elem` is present\n    * in the tree. The actor at reference `requester` should be notified when\n    * this operation is completed.\n    */\n  case class Contains(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request with identifier `id` to remove the element `elem` from the tree.\n    * The actor at reference `requester` should be notified when this operation\n    * is completed.\n    */\n  case class Remove(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request to perform garbage collection*/\n  case object GC\n\n  /** Holds the answer to the Contains request with identifier `id`.\n    * `result` is true if and only if the element is present in the tree.\n    */\n  case class ContainsResult(id: Int, result: Boolean) extends OperationReply\n\n  /** Message to signal successful completion of an insert or remove operation. */\n  case class OperationFinished(id: Int) extends OperationReply\n\n}\n\n\nclass BinaryTreeSet extends Actor {\n  import BinaryTreeSet._\n  import BinaryTreeNode._\n\n  def createRoot: ActorRef = context.actorOf(BinaryTreeNode.props(0, initiallyRemoved = true))\n\n  var root = createRoot\n\n  // optional\n  var pendingQueue = Queue.empty[Operation]\n\n  // optional\n  def receive = normal\n\n  // optional\n  /** Accepts `Operation` and `GC` messages. */\n  val normal: Receive = { \n    case o: Operation => root ! o\n    case GC => {\n      val newRoot = createRoot\n      context become(garbageCollecting(newRoot), false)\n      root ! CopyTo(newRoot)\n    }\n\n  // optional\n  /** Handles messages while garbage collection is performed.\n    * `newRoot` is the root of the new binary tree where we want to copy\n    * all non-removed elements into.\n    */\n  def garbageCollecting(newRoot: ActorRef): Receive = {\n    //Giving the newRoot allows copying and forwarding operations when we are done\n\n    case op: Operation => pendingQueue enqueue op //Save operations to do (and in their correct order: FIFO)\n    case CopyFinished => {\n      pendingQueue.foreach(newRoot ! _) //Processing all pending operations on the new root\n      root = newRoot //Setting the root to newRoot\n      pendingQueue = Queue.empty //Removing all awaiting operations\n      context unbecome //Popping the GC state\n\n    }\n  }\n\n}\n\nobject BinaryTreeNode {\n  trait Position\n\n  case object Left extends Position\n  case object Right extends Position\n\n  case class CopyTo(treeNode: ActorRef)\n  case object CopyFinished\n\n  def props(elem: Int, initiallyRemoved: Boolean) = Props(classOf[BinaryTreeNode],  elem, initiallyRemoved)\n}\n\nclass BinaryTreeNode(val elem: Int, initiallyRemoved: Boolean) extends Actor {\n  import BinaryTreeNode._\n  import BinaryTreeSet._\n\n  var subtrees = Map[Position, ActorRef]()\n  var removed = initiallyRemoved\n\n  def nextNode(e: Int): Position = if(e > elem) Right else Left\n\n  // optional\n  def receive = normal\n\n  // optional\n  /** Handles `Operation` messages and `CopyTo` requests. */\n  val normal: Receive = { \n    case Insert => insert\n    case Contains(r, id, e) => if(elem == e && !removed) r ! ContainsResult(id, true) else subtrees(nextNode(e)) match {\n                case None => \n    }\n    case Remove(r, id, e) => if(e == elem) removed = true else \n    case CopyTo(treeNode) => {treeNode ! Insert(self, , elem) } }\n\n\n  def insert: Receive = {\n     case Insert(r, id, e) => \n      if(e == elem) {\n      removed = false\n  }\n\n  def contains: Receive = {\n    case Contains(r, id, e) => {\n      if(elem == e && !removed) r ! ContainsResult(id, true) else subtrees(nextNode(e)) match {}\n    }\n  }\n  def remove: Receive = {\n    case Remove(r, id, e) => {\n        if(e == elem) removed = true else {\n          subtrees get nextNode(e) match {\n            case None => r ! \n            case Some(node) => node ! Remove(r, id, e)\n          }\n        }\n    }\n  }\n\n\n  def CopyTo: Receive = {\n    case CopyTo(treeNode) => {\n      val children = subtrees.values\n      if(!removed) treeNode ! Insert(self, -1, elem)\n      children.foreach(_ ! CopyTo(treeNode))\n  }\n  // optional\n  /** `expected` is the set of ActorRefs whose replies we are waiting for,\n    * `insertConfirmed` tracks whether the copy of this node to the new tree has been confirmed.\n    */\n  def copying(expected: Set[ActorRef], insertConfirmed: Boolean): Receive = {\n    case o: Operation =>\n  }\n\n\n}\n"}}}
+[2019-05-04 18:35:34,215] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala","languageId":"scala","version":2286,"text":"/**\n * Copyright (C) 2009-2013 Typesafe Inc. <http://www.typesafe.com>\n */\npackage actorbintree\n\nimport akka.actor._\nimport scala.collection.immutable.Queue\n\nobject BinaryTreeSet {\n\n  trait Operation {\n    def requester: ActorRef\n    def id: Int\n    def elem: Int\n  }\n\n  trait OperationReply {\n    def id: Int\n  }\n\n  /** Request with identifier `id` to insert an element `elem` into the tree.\n    * The actor at reference `requester` should be notified when this operation\n    * is completed.\n    */\n  case class Insert(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request with identifier `id` to check whether an element `elem` is present\n    * in the tree. The actor at reference `requester` should be notified when\n    * this operation is completed.\n    */\n  case class Contains(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request with identifier `id` to remove the element `elem` from the tree.\n    * The actor at reference `requester` should be notified when this operation\n    * is completed.\n    */\n  case class Remove(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request to perform garbage collection*/\n  case object GC\n\n  /** Holds the answer to the Contains request with identifier `id`.\n    * `result` is true if and only if the element is present in the tree.\n    */\n  case class ContainsResult(id: Int, result: Boolean) extends OperationReply\n\n  /** Message to signal successful completion of an insert or remove operation. */\n  case class OperationFinished(id: Int) extends OperationReply\n\n}\n\n\nclass BinaryTreeSet extends Actor {\n  import BinaryTreeSet._\n  import BinaryTreeNode._\n\n  def createRoot: ActorRef = context.actorOf(BinaryTreeNode.props(0, initiallyRemoved = true))\n\n  var root = createRoot\n\n  // optional\n  var pendingQueue = Queue.empty[Operation]\n\n  // optional\n  def receive = normal\n\n  // optional\n  /** Accepts `Operation` and `GC` messages. */\n  val normal: Receive = { \n    case o: Operation => root ! o\n    case GC => {\n      val newRoot = createRoot\n      context become(garbageCollecting(newRoot), false)\n      root ! CopyTo(newRoot)\n    }\n\n  // optional\n  /** Handles messages while garbage collection is performed.\n    * `newRoot` is the root of the new binary tree where we want to copy\n    * all non-removed elements into.\n    */\n  def garbageCollecting(newRoot: ActorRef): Receive = {\n    //Giving the newRoot allows copying and forwarding operations when we are done\n\n    case op: Operation => pendingQueue enqueue op //Save operations to do (and in their correct order: FIFO)\n    case CopyFinished => {\n      pendingQueue.foreach(newRoot ! _) //Processing all pending operations on the new root\n      root = newRoot //Setting the root to newRoot\n      pendingQueue = Queue.empty //Removing all awaiting operations\n      context unbecome //Popping the GC state\n\n    }\n  }\n\n}\n\nobject BinaryTreeNode {\n  trait Position\n\n  case object Left extends Position\n  case object Right extends Position\n\n  case class CopyTo(treeNode: ActorRef)\n  case object CopyFinished\n\n  def props(elem: Int, initiallyRemoved: Boolean) = Props(classOf[BinaryTreeNode],  elem, initiallyRemoved)\n}\n\nclass BinaryTreeNode(val elem: Int, initiallyRemoved: Boolean) extends Actor {\n  import BinaryTreeNode._\n  import BinaryTreeSet._\n\n  var subtrees = Map[Position, ActorRef]()\n  var removed = initiallyRemoved\n\n  def nextNode(e: Int): Position = if(e > elem) Right else Left\n\n  // optional\n  def receive = normal\n\n  // optional\n  /** Handles `Operation` messages and `CopyTo` requests. */\n  val normal: Receive = { \n    case Insert => insert\n    case Contains(r, id, e) => if(elem == e && !removed) r ! ContainsResult(id, true) else subtrees(nextNode(e)) match {\n                case None => \n    }\n    case Remove(r, id, e) => if(e == elem) removed = true else \n    case CopyTo(treeNode) => {treeNode ! Insert(self, , elem) } }\n\n\n  def insert: Receive = {\n     case Insert(r, id, e) => \n      if(e == elem) {\n      removed = false\n  }\n\n  def contains: Receive = {\n    case Contains(r, id, e) => {\n      if(elem == e && !removed) r ! ContainsResult(id, true) else subtrees(nextNode(e)) match {}\n    }\n  }\n  def remove: Receive = {\n    case Remove(r, id, e) => {\n        if(e == elem) removed = true else {\n          subtrees get nextNode(e) match {\n            case None => r ! \n            case Some(node) => node ! Remove(r, id, e)\n          }\n        }\n    }\n  }\n\n\n  def CopyTo: Receive = {\n    case CopyTo(treeNode) => {\n      val children = subtrees.values\n      if(!removed) treeNode ! Insert(self, -1, elem)\n      children.foreach(_ ! CopyTo(treeNode))\n  }\n  // optional\n  /** `expected` is the set of ActorRefs whose replies we are waiting for,\n    * `insertConfirmed` tracks whether the copy of this node to the new tree has been confirmed.\n    */\n  def copying(expected: Set[ActorRef], insertConfirmed: Boolean): Receive = {\n    case o: Operation =>\n  }\n\n\n}\n"}}}
+[2019-05-04 18:35:34,234] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 192
+[2019-05-04 18:35:34,234] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 192
+[2019-05-04 18:35:34,240] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":1,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"}}}
+[2019-05-04 18:35:34,240] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":1,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"}}}
+[2019-05-04 18:35:34,245] DEBUG langserver.core.MessageWriter - Content-Length: 36
+
+
+
+{"jsonrpc":"2.0","result":[],"id":1}
+[2019-05-04 18:35:34,245] DEBUG langserver.core.MessageWriter - Content-Length: 36
+
+
+
+{"jsonrpc":"2.0","result":[],"id":1}
+[2019-05-04 18:35:34,245] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":[],"id":1}
+[2019-05-04 18:35:34,245] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":[],"id":1}
+[2019-05-04 18:35:34,301] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 222
+[2019-05-04 18:35:34,301] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 222
+[2019-05-04 18:35:34,303] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":2,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":127,"character":60}}}
+[2019-05-04 18:35:34,303] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":2,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":127,"character":60}}}
+[2019-05-04 18:35:34,314] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (127, 60).
+[2019-05-04 18:35:34,314] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (127, 60).
+[2019-05-04 18:35:34,342] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:35:34,342] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:35:34,346] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:35:34,346] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:35:34,368] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-05-04 18:35:34,368] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-05-04 18:35:34,370] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":2}}
+[2019-05-04 18:35:34,370] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":2}}
+[2019-05-04 18:35:34,378] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(2)
+[2019-05-04 18:35:34,378] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(2)
+[2019-05-04 18:35:34,740] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 222
+[2019-05-04 18:35:34,740] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 222
+[2019-05-04 18:35:34,743] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":3,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":127,"character":61}}}
+[2019-05-04 18:35:34,743] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":3,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":127,"character":61}}}
+[2019-05-04 18:35:34,747] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (127, 61).
+[2019-05-04 18:35:34,747] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (127, 61).
+[2019-05-04 18:35:34,749] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:35:34,749] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:35:34,749] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:35:34,749] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:35:35,111] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-05-04 18:35:35,111] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-05-04 18:35:35,113] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":3}}
+[2019-05-04 18:35:35,113] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":3}}
+[2019-05-04 18:35:35,119] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(3)
+[2019-05-04 18:35:35,119] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(3)
+[2019-05-04 18:35:46,382] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 227
+[2019-05-04 18:35:46,382] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 227
+[2019-05-04 18:35:46,385] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":4,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":128,"character":47}}}
+[2019-05-04 18:35:46,385] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":4,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":128,"character":47}}}
+[2019-05-04 18:35:46,389] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (128, 47).
+[2019-05-04 18:35:46,389] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (128, 47).
+[2019-05-04 18:35:46,397] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:46,397] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:46,480] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-05-04 18:35:46,480] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-05-04 18:35:46,483] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":4}}
+[2019-05-04 18:35:46,483] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":4}}
+[2019-05-04 18:35:46,490] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(4)
+[2019-05-04 18:35:46,490] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(4)
+[2019-05-04 18:35:46,491] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 227
+[2019-05-04 18:35:46,491] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 227
+[2019-05-04 18:35:46,493] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":5,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":127,"character":47}}}
+[2019-05-04 18:35:46,493] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":5,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":127,"character":47}}}
+[2019-05-04 18:35:46,499] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (127, 47).
+[2019-05-04 18:35:46,499] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (127, 47).
+[2019-05-04 18:35:46,501] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:46,501] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:46,830] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 227
+[2019-05-04 18:35:46,830] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 227
+[2019-05-04 18:35:46,834] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":6,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":127,"character":46}}}
+[2019-05-04 18:35:46,834] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":6,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":127,"character":46}}}
+[2019-05-04 18:35:46,836] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (127, 46).
+[2019-05-04 18:35:46,836] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (127, 46).
+[2019-05-04 18:35:46,838] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:46,838] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:47,006] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-05-04 18:35:47,006] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-05-04 18:35:47,007] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":5}}
+[2019-05-04 18:35:47,007] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":5}}
+[2019-05-04 18:35:47,012] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(5)
+[2019-05-04 18:35:47,012] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(5)
+[2019-05-04 18:35:47,013] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 227
+[2019-05-04 18:35:47,013] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 227
+[2019-05-04 18:35:47,014] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":7,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":127,"character":46}}}
+[2019-05-04 18:35:47,014] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":7,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":127,"character":46}}}
+[2019-05-04 18:35:47,018] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (127, 46).
+[2019-05-04 18:35:47,018] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (127, 46).
+[2019-05-04 18:35:47,019] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:47,019] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:47,043] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 222
+[2019-05-04 18:35:47,043] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 222
+[2019-05-04 18:35:47,045] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":8,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":127,"character":45}}}
+[2019-05-04 18:35:47,045] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":8,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":127,"character":45}}}
+[2019-05-04 18:35:47,048] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (127, 45).
+[2019-05-04 18:35:47,048] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (127, 45).
+[2019-05-04 18:35:47,050] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:35:47,050] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:35:47,050] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:35:47,050] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:35:48,007] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-05-04 18:35:48,007] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-05-04 18:35:48,012] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":8}}
+[2019-05-04 18:35:48,012] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":8}}
+[2019-05-04 18:35:48,016] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(8)
+[2019-05-04 18:35:48,016] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(8)
+[2019-05-04 18:35:49,489] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 222
+[2019-05-04 18:35:49,489] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 222
+[2019-05-04 18:35:49,492] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":9,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":127,"character":45}}}
+[2019-05-04 18:35:49,492] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":9,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":127,"character":45}}}
+[2019-05-04 18:35:49,497] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (127, 45).
+[2019-05-04 18:35:49,497] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (127, 45).
+[2019-05-04 18:35:49,499] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:35:49,499] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:35:49,499] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:35:49,499] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:35:49,539] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-05-04 18:35:49,539] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-05-04 18:35:49,541] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":9}}
+[2019-05-04 18:35:49,541] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":9}}
+[2019-05-04 18:35:49,547] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(9)
+[2019-05-04 18:35:49,547] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(9)
+[2019-05-04 18:35:49,867] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-05-04 18:35:49,867] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 62
+[2019-05-04 18:35:49,872] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":7}}
+[2019-05-04 18:35:49,872] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":7}}
+[2019-05-04 18:35:49,878] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(7)
+[2019-05-04 18:35:49,878] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(7)
+[2019-05-04 18:35:49,879] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:49,879] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:49,880] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":10,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":127,"character":54}}}
+[2019-05-04 18:35:49,880] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":10,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":127,"character":54}}}
+[2019-05-04 18:35:49,882] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (127, 54).
+[2019-05-04 18:35:49,882] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (127, 54).
+[2019-05-04 18:35:49,884] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:49,884] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:50,092] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 223
+[2019-05-04 18:35:50,092] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 223
+[2019-05-04 18:35:50,094] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":11,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":127,"character":54}}}
+[2019-05-04 18:35:50,094] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":11,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":127,"character":54}}}
+[2019-05-04 18:35:50,097] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (127, 54).
+[2019-05-04 18:35:50,097] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (127, 54).
+[2019-05-04 18:35:50,100] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:35:50,100] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:35:50,100] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:35:50,100] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:35:50,142] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:50,142] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:50,145] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":11}}
+[2019-05-04 18:35:50,145] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":11}}
+[2019-05-04 18:35:50,149] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(11)
+[2019-05-04 18:35:50,149] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(11)
+[2019-05-04 18:35:50,342] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:50,342] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:50,345] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":10}}
+[2019-05-04 18:35:50,345] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":10}}
+[2019-05-04 18:35:50,352] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(10)
+[2019-05-04 18:35:50,352] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(10)
+[2019-05-04 18:35:50,355] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:50,355] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:50,356] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":12,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":127,"character":59}}}
+[2019-05-04 18:35:50,356] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":12,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":127,"character":59}}}
+[2019-05-04 18:35:50,360] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (127, 59).
+[2019-05-04 18:35:50,360] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (127, 59).
+[2019-05-04 18:35:50,362] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:50,362] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:50,712] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 223
+[2019-05-04 18:35:50,712] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 223
+[2019-05-04 18:35:50,714] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":13,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":127,"character":58}}}
+[2019-05-04 18:35:50,714] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":13,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":127,"character":58}}}
+[2019-05-04 18:35:50,717] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (127, 58).
+[2019-05-04 18:35:50,717] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (127, 58).
+[2019-05-04 18:35:50,720] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:35:50,720] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:35:50,720] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:35:50,720] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:35:50,759] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:50,759] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:50,761] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":13}}
+[2019-05-04 18:35:50,761] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":13}}
+[2019-05-04 18:35:50,766] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(13)
+[2019-05-04 18:35:50,766] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(13)
+[2019-05-04 18:35:51,110] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 223
+[2019-05-04 18:35:51,110] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 223
+[2019-05-04 18:35:51,112] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":14,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":128,"character":42}}}
+[2019-05-04 18:35:51,112] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":14,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":128,"character":42}}}
+[2019-05-04 18:35:51,116] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (128, 42).
+[2019-05-04 18:35:51,116] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (128, 42).
+[2019-05-04 18:35:51,118] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:35:51,118] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:35:51,118] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:35:51,118] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:35:51,205] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:51,205] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:51,207] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":14}}
+[2019-05-04 18:35:51,207] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":14}}
+[2019-05-04 18:35:51,213] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(14)
+[2019-05-04 18:35:51,213] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(14)
+[2019-05-04 18:35:51,549] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:51,549] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:51,551] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":12}}
+[2019-05-04 18:35:51,551] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":12}}
+[2019-05-04 18:35:51,555] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(12)
+[2019-05-04 18:35:51,555] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(12)
+[2019-05-04 18:35:51,556] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:51,556] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:51,557] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":15,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":128,"character":42}}}
+[2019-05-04 18:35:51,557] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":15,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":128,"character":42}}}
+[2019-05-04 18:35:51,562] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (128, 42).
+[2019-05-04 18:35:51,562] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (128, 42).
+[2019-05-04 18:35:51,564] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:51,564] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:51,881] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:51,881] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:51,883] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":16,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":128,"character":43}}}
+[2019-05-04 18:35:51,883] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":16,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":128,"character":43}}}
+[2019-05-04 18:35:51,888] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (128, 43).
+[2019-05-04 18:35:51,888] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (128, 43).
+[2019-05-04 18:35:51,892] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:51,892] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:52,979] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:52,979] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:52,981] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":15}}
+[2019-05-04 18:35:52,981] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":15}}
+[2019-05-04 18:35:52,983] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(15)
+[2019-05-04 18:35:52,983] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(15)
+[2019-05-04 18:35:52,986] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:52,986] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:52,988] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":17,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":128,"character":42}}}
+[2019-05-04 18:35:52,988] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":17,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":128,"character":42}}}
+[2019-05-04 18:35:52,992] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (128, 42).
+[2019-05-04 18:35:52,992] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (128, 42).
+[2019-05-04 18:35:52,994] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:52,994] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:53,142] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:53,142] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:53,144] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":18,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":128,"character":43}}}
+[2019-05-04 18:35:53,144] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":18,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":128,"character":43}}}
+[2019-05-04 18:35:53,147] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (128, 43).
+[2019-05-04 18:35:53,147] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (128, 43).
+[2019-05-04 18:35:53,151] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:53,151] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:53,469] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:53,469] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:53,471] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":17}}
+[2019-05-04 18:35:53,471] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":17}}
+[2019-05-04 18:35:53,478] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(17)
+[2019-05-04 18:35:53,478] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(17)
+[2019-05-04 18:35:53,484] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:53,484] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:53,486] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":19,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":128,"character":43}}}
+[2019-05-04 18:35:53,486] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":19,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":128,"character":43}}}
+[2019-05-04 18:35:53,488] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (128, 43).
+[2019-05-04 18:35:53,488] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (128, 43).
+[2019-05-04 18:35:53,489] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:53,489] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:53,619] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 223
+[2019-05-04 18:35:53,619] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 223
+[2019-05-04 18:35:53,622] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":20,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":128,"character":42}}}
+[2019-05-04 18:35:53,622] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":20,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":128,"character":42}}}
+[2019-05-04 18:35:53,625] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (128, 42).
+[2019-05-04 18:35:53,625] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (128, 42).
+[2019-05-04 18:35:53,627] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:35:53,627] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:35:53,627] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:35:53,627] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:35:53,672] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:53,672] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:53,674] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":20}}
+[2019-05-04 18:35:53,674] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":20}}
+[2019-05-04 18:35:53,678] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(20)
+[2019-05-04 18:35:53,678] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(20)
+[2019-05-04 18:35:53,876] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:53,876] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:53,879] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":21,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":128,"character":43}}}
+[2019-05-04 18:35:53,879] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":21,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":128,"character":43}}}
+[2019-05-04 18:35:53,881] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (128, 43).
+[2019-05-04 18:35:53,881] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (128, 43).
+[2019-05-04 18:35:53,882] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:53,882] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:54,676] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:54,676] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:54,678] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":22,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":128,"character":43}}}
+[2019-05-04 18:35:54,678] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":22,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":128,"character":43}}}
+[2019-05-04 18:35:54,681] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (128, 43).
+[2019-05-04 18:35:54,681] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (128, 43).
+[2019-05-04 18:35:54,682] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:54,682] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:55,138] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:55,138] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:55,140] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":19}}
+[2019-05-04 18:35:55,140] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":19}}
+[2019-05-04 18:35:55,150] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(19)
+[2019-05-04 18:35:55,150] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(19)
+[2019-05-04 18:35:55,151] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:55,151] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:55,153] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":23,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":128,"character":43}}}
+[2019-05-04 18:35:55,153] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":23,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":128,"character":43}}}
+[2019-05-04 18:35:55,156] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (128, 43).
+[2019-05-04 18:35:55,156] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (128, 43).
+[2019-05-04 18:35:55,157] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:55,157] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:55,588] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 223
+[2019-05-04 18:35:55,588] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 223
+[2019-05-04 18:35:55,591] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":24,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":124,"character":13}}}
+[2019-05-04 18:35:55,591] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":24,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":124,"character":13}}}
+[2019-05-04 18:35:55,594] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (124, 13).
+[2019-05-04 18:35:55,594] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (124, 13).
+[2019-05-04 18:35:55,596] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:35:55,596] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:35:55,596] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:35:55,596] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:35:55,607] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:55,607] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:55,609] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":23}}
+[2019-05-04 18:35:55,609] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":23}}
+[2019-05-04 18:35:55,613] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(23)
+[2019-05-04 18:35:55,613] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(23)
+[2019-05-04 18:35:55,613] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:55,613] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:55,614] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":25,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":124,"character":14}}}
+[2019-05-04 18:35:55,614] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":25,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":124,"character":14}}}
+[2019-05-04 18:35:55,618] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (124, 14).
+[2019-05-04 18:35:55,618] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (124, 14).
+[2019-05-04 18:35:55,620] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:55,620] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:55,921] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:55,921] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:55,923] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":24}}
+[2019-05-04 18:35:55,923] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":24}}
+[2019-05-04 18:35:55,926] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(24)
+[2019-05-04 18:35:55,926] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(24)
+[2019-05-04 18:35:56,013] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:56,013] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:56,014] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":26,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":124,"character":13}}}
+[2019-05-04 18:35:56,014] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":26,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":124,"character":13}}}
+[2019-05-04 18:35:56,019] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (124, 13).
+[2019-05-04 18:35:56,019] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (124, 13).
+[2019-05-04 18:35:56,021] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:56,021] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:56,072] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:56,072] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:56,074] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":25}}
+[2019-05-04 18:35:56,074] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":25}}
+[2019-05-04 18:35:56,079] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(25)
+[2019-05-04 18:35:56,079] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(25)
+[2019-05-04 18:35:56,080] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:56,080] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:56,082] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":27,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":123,"character":13}}}
+[2019-05-04 18:35:56,082] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":27,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":123,"character":13}}}
+[2019-05-04 18:35:56,086] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (123, 13).
+[2019-05-04 18:35:56,086] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (123, 13).
+[2019-05-04 18:35:56,087] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:56,087] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:56,394] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:56,394] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:56,396] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":28,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":123,"character":13}}}
+[2019-05-04 18:35:56,396] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":28,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":123,"character":13}}}
+[2019-05-04 18:35:56,398] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (123, 13).
+[2019-05-04 18:35:56,398] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (123, 13).
+[2019-05-04 18:35:56,404] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:56,404] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:56,738] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:56,738] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:56,740] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":27}}
+[2019-05-04 18:35:56,740] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":27}}
+[2019-05-04 18:35:56,743] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(27)
+[2019-05-04 18:35:56,743] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(27)
+[2019-05-04 18:35:56,746] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:56,746] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:56,748] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":29,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":123,"character":13}}}
+[2019-05-04 18:35:56,748] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":29,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":123,"character":13}}}
+[2019-05-04 18:35:56,749] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (123, 13).
+[2019-05-04 18:35:56,749] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (123, 13).
+[2019-05-04 18:35:56,750] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:56,750] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:56,938] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:56,938] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:56,942] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":29}}
+[2019-05-04 18:35:56,942] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":29}}
+[2019-05-04 18:35:56,946] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(29)
+[2019-05-04 18:35:56,946] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(29)
+[2019-05-04 18:35:56,947] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:56,947] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:56,948] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":30,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":122,"character":16}}}
+[2019-05-04 18:35:56,948] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":30,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":122,"character":16}}}
+[2019-05-04 18:35:56,952] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (122, 16).
+[2019-05-04 18:35:56,952] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (122, 16).
+[2019-05-04 18:35:56,954] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:56,954] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:57,156] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:57,156] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:57,159] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":31,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":122,"character":16}}}
+[2019-05-04 18:35:57,159] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":31,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":122,"character":16}}}
+[2019-05-04 18:35:57,161] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (122, 16).
+[2019-05-04 18:35:57,161] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (122, 16).
+[2019-05-04 18:35:57,165] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:57,165] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:57,235] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:57,235] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:57,238] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":30}}
+[2019-05-04 18:35:57,238] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":30}}
+[2019-05-04 18:35:57,242] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(30)
+[2019-05-04 18:35:57,242] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(30)
+[2019-05-04 18:35:57,246] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:57,246] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 228
+[2019-05-04 18:35:57,248] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":32,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":122,"character":16}}}
+[2019-05-04 18:35:57,248] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":32,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":122,"character":16}}}
+[2019-05-04 18:35:57,251] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (122, 16).
+[2019-05-04 18:35:57,251] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (122, 16).
+[2019-05-04 18:35:57,252] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:57,252] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:57,386] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 223
+[2019-05-04 18:35:57,386] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 223
+[2019-05-04 18:35:57,389] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":33,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":122,"character":16}}}
+[2019-05-04 18:35:57,389] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":33,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":122,"character":16}}}
+[2019-05-04 18:35:57,393] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (122, 16).
+[2019-05-04 18:35:57,393] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (122, 16).
+[2019-05-04 18:35:57,393] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:35:57,393] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:35:57,393] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:35:57,393] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:35:57,636] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:57,636] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:57,638] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":33}}
+[2019-05-04 18:35:57,638] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":33}}
+[2019-05-04 18:35:57,641] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(33)
+[2019-05-04 18:35:57,641] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(33)
+[2019-05-04 18:35:57,826] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:57,826] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:35:57,827] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":32}}
+[2019-05-04 18:35:57,827] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":32}}
+[2019-05-04 18:35:57,830] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(32)
+[2019-05-04 18:35:57,830] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(32)
+[2019-05-04 18:35:57,831] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 227
+[2019-05-04 18:35:57,831] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 227
+[2019-05-04 18:35:57,831] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":34,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":120,"character":7}}}
+[2019-05-04 18:35:57,831] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":34,"method":"textDocument/definition","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":120,"character":7}}}
+[2019-05-04 18:35:57,835] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (120, 7).
+[2019-05-04 18:35:57,835] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got goto definition request at (120, 7).
+[2019-05-04 18:35:57,836] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:35:57,836] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Goto Definition future completed: succes? false
+[2019-05-04 18:36:24,184] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 223
+[2019-05-04 18:36:24,184] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 223
+[2019-05-04 18:36:24,186] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":35,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":125,"character":26}}}
+[2019-05-04 18:36:24,186] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":35,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":125,"character":26}}}
+[2019-05-04 18:36:24,190] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (125, 26).
+[2019-05-04 18:36:24,190] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (125, 26).
+[2019-05-04 18:36:24,195] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:36:24,195] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:36:24,197] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:36:24,197] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:36:27,175] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:36:27,175] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:36:27,177] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":35}}
+[2019-05-04 18:36:27,177] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":35}}
+[2019-05-04 18:36:27,182] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(35)
+[2019-05-04 18:36:27,182] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(35)
+[2019-05-04 18:36:28,358] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 223
+[2019-05-04 18:36:28,358] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 223
+[2019-05-04 18:36:28,359] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":36,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":124,"character":27}}}
+[2019-05-04 18:36:28,359] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":36,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":124,"character":27}}}
+[2019-05-04 18:36:28,362] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (124, 27).
+[2019-05-04 18:36:28,362] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (124, 27).
+[2019-05-04 18:36:28,364] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:36:28,364] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:36:28,364] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:36:28,364] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:36:28,791] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:36:28,791] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:36:28,792] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":36}}
+[2019-05-04 18:36:28,792] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":36}}
+[2019-05-04 18:36:28,794] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(36)
+[2019-05-04 18:36:28,794] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(36)
+[2019-05-04 18:36:29,107] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 223
+[2019-05-04 18:36:29,107] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 223
+[2019-05-04 18:36:29,109] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":37,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":124,"character":27}}}
+[2019-05-04 18:36:29,109] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":37,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":124,"character":27}}}
+[2019-05-04 18:36:29,113] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (124, 27).
+[2019-05-04 18:36:29,113] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (124, 27).
+[2019-05-04 18:36:29,113] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:36:29,113] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:36:29,114] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:36:29,114] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:36:29,257] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:36:29,257] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:36:29,260] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":37}}
+[2019-05-04 18:36:29,260] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":37}}
+[2019-05-04 18:36:29,263] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(37)
+[2019-05-04 18:36:29,263] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(37)
+[2019-05-04 18:36:30,143] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 5344
+[2019-05-04 18:36:30,143] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 5344
+[2019-05-04 18:36:30,145] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala","version":2287},"contentChanges":[{"text":"/**\n * Copyright (C) 2009-2013 Typesafe Inc. <http://www.typesafe.com>\n */\npackage actorbintree\n\nimport akka.actor._\nimport scala.collection.immutable.Queue\n\nobject BinaryTreeSet {\n\n  trait Operation {\n    def requester: ActorRef\n    def id: Int\n    def elem: Int\n  }\n\n  trait OperationReply {\n    def id: Int\n  }\n\n  /** Request with identifier `id` to insert an element `elem` into the tree.\n    * The actor at reference `requester` should be notified when this operation\n    * is completed.\n    */\n  case class Insert(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request with identifier `id` to check whether an element `elem` is present\n    * in the tree. The actor at reference `requester` should be notified when\n    * this operation is completed.\n    */\n  case class Contains(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request with identifier `id` to remove the element `elem` from the tree.\n    * The actor at reference `requester` should be notified when this operation\n    * is completed.\n    */\n  case class Remove(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request to perform garbage collection*/\n  case object GC\n\n  /** Holds the answer to the Contains request with identifier `id`.\n    * `result` is true if and only if the element is present in the tree.\n    */\n  case class ContainsResult(id: Int, result: Boolean) extends OperationReply\n\n  /** Message to signal successful completion of an insert or remove operation. */\n  case class OperationFinished(id: Int) extends OperationReply\n\n}\n\n\nclass BinaryTreeSet extends Actor {\n  import BinaryTreeSet._\n  import BinaryTreeNode._\n\n  def createRoot: ActorRef = context.actorOf(BinaryTreeNode.props(0, initiallyRemoved = true))\n\n  var root = createRoot\n\n  // optional\n  var pendingQueue = Queue.empty[Operation]\n\n  // optional\n  def receive = normal\n\n  // optional\n  /** Accepts `Operation` and `GC` messages. */\n  val normal: Receive = { \n    case o: Operation => root ! o\n    case GC => {\n      val newRoot = createRoot\n      context become(garbageCollecting(newRoot), false)\n      root ! CopyTo(newRoot)\n    }\n\n  // optional\n  /** Handles messages while garbage collection is performed.\n    * `newRoot` is the root of the new binary tree where we want to copy\n    * all non-removed elements into.\n    */\n  def garbageCollecting(newRoot: ActorRef): Receive = {\n    //Giving the newRoot allows copying and forwarding operations when we are done\n\n    case op: Operation => pendingQueue enqueue op //Save operations to do (and in their correct order: FIFO)\n    case CopyFinished => {\n      pendingQueue.foreach(newRoot ! _) //Processing all pending operations on the new root\n      root = newRoot //Setting the root to newRoot\n      pendingQueue = Queue.empty //Removing all awaiting operations\n      context unbecome //Popping the GC state\n\n    }\n  }\n\n}\n\nobject BinaryTreeNode {\n  trait Position\n\n  case object Left extends Position\n  case object Right extends Position\n\n  case class CopyTo(treeNode: ActorRef)\n  case object CopyFinished\n\n  def props(elem: Int, initiallyRemoved: Boolean) = Props(classOf[BinaryTreeNode],  elem, initiallyRemoved)\n}\n\nclass BinaryTreeNode(val elem: Int, initiallyRemoved: Boolean) extends Actor {\n  import BinaryTreeNode._\n  import BinaryTreeSet._\n\n  var subtrees = Map[Position, ActorRef]()\n  var removed = initiallyRemoved\n\n  def nextNode(e: Int): Position = if(e > elem) Right else Left\n\n  // optional\n  def receive = normal\n\n  // optional\n  /** Handles `Operation` messages and `CopyTo` requests. */\n  val normal: Receive = { \n    case Insert => insert\n    \n    case Contains(r, id, e) => if(elem == e && !removed) r ! ContainsResult(id, true) else subtrees(nextNode(e)) match {\n                case None => \n    }\n    case Remove(r, id, e) => if(e == elem) removed = true else \n    case CopyTo(treeNode) => {treeNode ! Insert(self, , elem) } }\n\n\n  def insert: Receive = {\n     case Insert(r, id, e) => \n      if(e == elem) {\n      removed = false\n  }\n\n  def contains: Receive = {\n    case Contains(r, id, e) => {\n      if(elem == e && !removed) r ! ContainsResult(id, true) else subtrees(nextNode(e)) match {}\n    }\n  }\n  def remove: Receive = {\n    case Remove(r, id, e) => {\n        if(e == elem) removed = true else {\n          subtrees get nextNode(e) match {\n            case None => r ! \n            case Some(node) => node ! Remove(r, id, e)\n          }\n        }\n    }\n  }\n\n\n  def CopyTo: Receive = {\n    case CopyTo(treeNode) => {\n      val children = subtrees.values\n      if(!removed) treeNode ! Insert(self, -1, elem)\n      children.foreach(_ ! CopyTo(treeNode))\n  }\n  // optional\n  /** `expected` is the set of ActorRefs whose replies we are waiting for,\n    * `insertConfirmed` tracks whether the copy of this node to the new tree has been confirmed.\n    */\n  def copying(expected: Set[ActorRef], insertConfirmed: Boolean): Receive = {\n    case o: Operation =>\n  }\n\n\n}\n"}]}}
+[2019-05-04 18:36:30,145] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala","version":2287},"contentChanges":[{"text":"/**\n * Copyright (C) 2009-2013 Typesafe Inc. <http://www.typesafe.com>\n */\npackage actorbintree\n\nimport akka.actor._\nimport scala.collection.immutable.Queue\n\nobject BinaryTreeSet {\n\n  trait Operation {\n    def requester: ActorRef\n    def id: Int\n    def elem: Int\n  }\n\n  trait OperationReply {\n    def id: Int\n  }\n\n  /** Request with identifier `id` to insert an element `elem` into the tree.\n    * The actor at reference `requester` should be notified when this operation\n    * is completed.\n    */\n  case class Insert(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request with identifier `id` to check whether an element `elem` is present\n    * in the tree. The actor at reference `requester` should be notified when\n    * this operation is completed.\n    */\n  case class Contains(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request with identifier `id` to remove the element `elem` from the tree.\n    * The actor at reference `requester` should be notified when this operation\n    * is completed.\n    */\n  case class Remove(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request to perform garbage collection*/\n  case object GC\n\n  /** Holds the answer to the Contains request with identifier `id`.\n    * `result` is true if and only if the element is present in the tree.\n    */\n  case class ContainsResult(id: Int, result: Boolean) extends OperationReply\n\n  /** Message to signal successful completion of an insert or remove operation. */\n  case class OperationFinished(id: Int) extends OperationReply\n\n}\n\n\nclass BinaryTreeSet extends Actor {\n  import BinaryTreeSet._\n  import BinaryTreeNode._\n\n  def createRoot: ActorRef = context.actorOf(BinaryTreeNode.props(0, initiallyRemoved = true))\n\n  var root = createRoot\n\n  // optional\n  var pendingQueue = Queue.empty[Operation]\n\n  // optional\n  def receive = normal\n\n  // optional\n  /** Accepts `Operation` and `GC` messages. */\n  val normal: Receive = { \n    case o: Operation => root ! o\n    case GC => {\n      val newRoot = createRoot\n      context become(garbageCollecting(newRoot), false)\n      root ! CopyTo(newRoot)\n    }\n\n  // optional\n  /** Handles messages while garbage collection is performed.\n    * `newRoot` is the root of the new binary tree where we want to copy\n    * all non-removed elements into.\n    */\n  def garbageCollecting(newRoot: ActorRef): Receive = {\n    //Giving the newRoot allows copying and forwarding operations when we are done\n\n    case op: Operation => pendingQueue enqueue op //Save operations to do (and in their correct order: FIFO)\n    case CopyFinished => {\n      pendingQueue.foreach(newRoot ! _) //Processing all pending operations on the new root\n      root = newRoot //Setting the root to newRoot\n      pendingQueue = Queue.empty //Removing all awaiting operations\n      context unbecome //Popping the GC state\n\n    }\n  }\n\n}\n\nobject BinaryTreeNode {\n  trait Position\n\n  case object Left extends Position\n  case object Right extends Position\n\n  case class CopyTo(treeNode: ActorRef)\n  case object CopyFinished\n\n  def props(elem: Int, initiallyRemoved: Boolean) = Props(classOf[BinaryTreeNode],  elem, initiallyRemoved)\n}\n\nclass BinaryTreeNode(val elem: Int, initiallyRemoved: Boolean) extends Actor {\n  import BinaryTreeNode._\n  import BinaryTreeSet._\n\n  var subtrees = Map[Position, ActorRef]()\n  var removed = initiallyRemoved\n\n  def nextNode(e: Int): Position = if(e > elem) Right else Left\n\n  // optional\n  def receive = normal\n\n  // optional\n  /** Handles `Operation` messages and `CopyTo` requests. */\n  val normal: Receive = { \n    case Insert => insert\n    \n    case Contains(r, id, e) => if(elem == e && !removed) r ! ContainsResult(id, true) else subtrees(nextNode(e)) match {\n                case None => \n    }\n    case Remove(r, id, e) => if(e == elem) removed = true else \n    case CopyTo(treeNode) => {treeNode ! Insert(self, , elem) } }\n\n\n  def insert: Receive = {\n     case Insert(r, id, e) => \n      if(e == elem) {\n      removed = false\n  }\n\n  def contains: Receive = {\n    case Contains(r, id, e) => {\n      if(elem == e && !removed) r ! ContainsResult(id, true) else subtrees(nextNode(e)) match {}\n    }\n  }\n  def remove: Receive = {\n    case Remove(r, id, e) => {\n        if(e == elem) removed = true else {\n          subtrees get nextNode(e) match {\n            case None => r ! \n            case Some(node) => node ! Remove(r, id, e)\n          }\n        }\n    }\n  }\n\n\n  def CopyTo: Receive = {\n    case CopyTo(treeNode) => {\n      val children = subtrees.values\n      if(!removed) treeNode ! Insert(self, -1, elem)\n      children.foreach(_ ! CopyTo(treeNode))\n  }\n  // optional\n  /** `expected` is the set of ActorRefs whose replies we are waiting for,\n    * `insertConfirmed` tracks whether the copy of this node to the new tree has been confirmed.\n    */\n  def copying(expected: Set[ActorRef], insertConfirmed: Boolean): Receive = {\n    case o: Operation =>\n  }\n\n\n}\n"}]}}
+[2019-05-04 18:36:30,180] ERROR langserver.core.Connection - failed notification handler
+java.lang.NullPointerException: null
+	at org.github.dragos.vscode.EnsimeLanguageServer.onChangeTextDocument(EnsimeLanguageServer.scala:167)
+	at langserver.core.LanguageServer.$anonfun$new$1(LanguageServer.scala:42)
+	at langserver.core.LanguageServer.$anonfun$new$1$adapted(LanguageServer.scala:40)
+	at langserver.core.Connection.$anonfun$notifySubscribers$2(Connection.scala:42)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at langserver.core.Connection.$anonfun$notifySubscribers$1(Connection.scala:42)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.generic.TraversableForwarder.foreach(TraversableForwarder.scala:35)
+	at scala.collection.generic.TraversableForwarder.foreach$(TraversableForwarder.scala:35)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:44)
+	at langserver.core.Connection.notifySubscribers(Connection.scala:41)
+	at langserver.core.Connection.$anonfun$start$4(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$4$adapted(Connection.scala:99)
+	at play.api.libs.json.JsSuccess.fold(JsResult.scala:15)
+	at langserver.core.Connection.$anonfun$start$2(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$2$adapted(Connection.scala:97)
+	at scala.Option.fold(Option.scala:158)
+	at langserver.core.Connection.start(Connection.scala:97)
+	at langserver.core.LanguageServer.start(LanguageServer.scala:50)
+	at org.github.dragos.vscode.EnsimeLanguageServer.start(EnsimeLanguageServer.scala:51)
+	at org.github.dragos.vscode.Main$.main(Main.scala:23)
+	at org.github.dragos.vscode.Main.main(Main.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at coursier.cli.qn.a(Unknown Source)
+	at coursier.cli.qm.i(Unknown Source)
+	at coursier.cli.qs.a(Unknown Source)
+	at c.g.a.c(Unknown Source)
+	at a.b.d_(Unknown Source)
+	at c.b.d.E.g(Unknown Source)
+	at c.b.e.aU.g(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.qm.b(Unknown Source)
+	at coursier.cli.M.b(Unknown Source)
+	at a.J.d_(Unknown Source)
+	at c.E.h(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.Coursier.main(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at coursier.Bootstrap.main(Bootstrap.java:412)
+[2019-05-04 18:36:30,180] ERROR langserver.core.Connection - failed notification handler
+java.lang.NullPointerException: null
+	at org.github.dragos.vscode.EnsimeLanguageServer.onChangeTextDocument(EnsimeLanguageServer.scala:167)
+	at langserver.core.LanguageServer.$anonfun$new$1(LanguageServer.scala:42)
+	at langserver.core.LanguageServer.$anonfun$new$1$adapted(LanguageServer.scala:40)
+	at langserver.core.Connection.$anonfun$notifySubscribers$2(Connection.scala:42)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at langserver.core.Connection.$anonfun$notifySubscribers$1(Connection.scala:42)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.generic.TraversableForwarder.foreach(TraversableForwarder.scala:35)
+	at scala.collection.generic.TraversableForwarder.foreach$(TraversableForwarder.scala:35)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:44)
+	at langserver.core.Connection.notifySubscribers(Connection.scala:41)
+	at langserver.core.Connection.$anonfun$start$4(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$4$adapted(Connection.scala:99)
+	at play.api.libs.json.JsSuccess.fold(JsResult.scala:15)
+	at langserver.core.Connection.$anonfun$start$2(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$2$adapted(Connection.scala:97)
+	at scala.Option.fold(Option.scala:158)
+	at langserver.core.Connection.start(Connection.scala:97)
+	at langserver.core.LanguageServer.start(LanguageServer.scala:50)
+	at org.github.dragos.vscode.EnsimeLanguageServer.start(EnsimeLanguageServer.scala:51)
+	at org.github.dragos.vscode.Main$.main(Main.scala:23)
+	at org.github.dragos.vscode.Main.main(Main.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at coursier.cli.qn.a(Unknown Source)
+	at coursier.cli.qm.i(Unknown Source)
+	at coursier.cli.qs.a(Unknown Source)
+	at c.g.a.c(Unknown Source)
+	at a.b.d_(Unknown Source)
+	at c.b.d.E.g(Unknown Source)
+	at c.b.e.aU.g(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.qm.b(Unknown Source)
+	at coursier.cli.M.b(Unknown Source)
+	at a.J.d_(Unknown Source)
+	at c.E.h(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.Coursier.main(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at coursier.Bootstrap.main(Bootstrap.java:412)
+[2019-05-04 18:36:30,248] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 193
+[2019-05-04 18:36:30,248] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 193
+[2019-05-04 18:36:30,250] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":38,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"}}}
+[2019-05-04 18:36:30,250] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":38,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"}}}
+[2019-05-04 18:36:30,258] DEBUG langserver.core.MessageWriter - Content-Length: 37
+
+
+
+{"jsonrpc":"2.0","result":[],"id":38}
+[2019-05-04 18:36:30,258] DEBUG langserver.core.MessageWriter - Content-Length: 37
+
+
+
+{"jsonrpc":"2.0","result":[],"id":38}
+[2019-05-04 18:36:30,259] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":[],"id":38}
+[2019-05-04 18:36:30,259] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":[],"id":38}
+[2019-05-04 18:36:31,260] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 5342
+[2019-05-04 18:36:31,260] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 5342
+[2019-05-04 18:36:31,266] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala","version":2288},"contentChanges":[{"text":"/**\n * Copyright (C) 2009-2013 Typesafe Inc. <http://www.typesafe.com>\n */\npackage actorbintree\n\nimport akka.actor._\nimport scala.collection.immutable.Queue\n\nobject BinaryTreeSet {\n\n  trait Operation {\n    def requester: ActorRef\n    def id: Int\n    def elem: Int\n  }\n\n  trait OperationReply {\n    def id: Int\n  }\n\n  /** Request with identifier `id` to insert an element `elem` into the tree.\n    * The actor at reference `requester` should be notified when this operation\n    * is completed.\n    */\n  case class Insert(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request with identifier `id` to check whether an element `elem` is present\n    * in the tree. The actor at reference `requester` should be notified when\n    * this operation is completed.\n    */\n  case class Contains(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request with identifier `id` to remove the element `elem` from the tree.\n    * The actor at reference `requester` should be notified when this operation\n    * is completed.\n    */\n  case class Remove(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request to perform garbage collection*/\n  case object GC\n\n  /** Holds the answer to the Contains request with identifier `id`.\n    * `result` is true if and only if the element is present in the tree.\n    */\n  case class ContainsResult(id: Int, result: Boolean) extends OperationReply\n\n  /** Message to signal successful completion of an insert or remove operation. */\n  case class OperationFinished(id: Int) extends OperationReply\n\n}\n\n\nclass BinaryTreeSet extends Actor {\n  import BinaryTreeSet._\n  import BinaryTreeNode._\n\n  def createRoot: ActorRef = context.actorOf(BinaryTreeNode.props(0, initiallyRemoved = true))\n\n  var root = createRoot\n\n  // optional\n  var pendingQueue = Queue.empty[Operation]\n\n  // optional\n  def receive = normal\n\n  // optional\n  /** Accepts `Operation` and `GC` messages. */\n  val normal: Receive = { \n    case o: Operation => root ! o\n    case GC => {\n      val newRoot = createRoot\n      context become(garbageCollecting(newRoot), false)\n      root ! CopyTo(newRoot)\n    }\n\n  // optional\n  /** Handles messages while garbage collection is performed.\n    * `newRoot` is the root of the new binary tree where we want to copy\n    * all non-removed elements into.\n    */\n  def garbageCollecting(newRoot: ActorRef): Receive = {\n    //Giving the newRoot allows copying and forwarding operations when we are done\n\n    case op: Operation => pendingQueue enqueue op //Save operations to do (and in their correct order: FIFO)\n    case CopyFinished => {\n      pendingQueue.foreach(newRoot ! _) //Processing all pending operations on the new root\n      root = newRoot //Setting the root to newRoot\n      pendingQueue = Queue.empty //Removing all awaiting operations\n      context unbecome //Popping the GC state\n\n    }\n  }\n\n}\n\nobject BinaryTreeNode {\n  trait Position\n\n  case object Left extends Position\n  case object Right extends Position\n\n  case class CopyTo(treeNode: ActorRef)\n  case object CopyFinished\n\n  def props(elem: Int, initiallyRemoved: Boolean) = Props(classOf[BinaryTreeNode],  elem, initiallyRemoved)\n}\n\nclass BinaryTreeNode(val elem: Int, initiallyRemoved: Boolean) extends Actor {\n  import BinaryTreeNode._\n  import BinaryTreeSet._\n\n  var subtrees = Map[Position, ActorRef]()\n  var removed = initiallyRemoved\n\n  def nextNode(e: Int): Position = if(e > elem) Right else Left\n\n  // optional\n  def receive = normal\n\n  // optional\n  /** Handles `Operation` messages and `CopyTo` requests. */\n  val normal: Receive = { \n    case Insert => insert\n  \n    case Contains(r, id, e) => if(elem == e && !removed) r ! ContainsResult(id, true) else subtrees(nextNode(e)) match {\n                case None => \n    }\n    case Remove(r, id, e) => if(e == elem) removed = true else \n    case CopyTo(treeNode) => {treeNode ! Insert(self, , elem) } }\n\n\n  def insert: Receive = {\n     case Insert(r, id, e) => \n      if(e == elem) {\n      removed = false\n  }\n\n  def contains: Receive = {\n    case Contains(r, id, e) => {\n      if(elem == e && !removed) r ! ContainsResult(id, true) else subtrees(nextNode(e)) match {}\n    }\n  }\n  def remove: Receive = {\n    case Remove(r, id, e) => {\n        if(e == elem) removed = true else {\n          subtrees get nextNode(e) match {\n            case None => r ! \n            case Some(node) => node ! Remove(r, id, e)\n          }\n        }\n    }\n  }\n\n\n  def CopyTo: Receive = {\n    case CopyTo(treeNode) => {\n      val children = subtrees.values\n      if(!removed) treeNode ! Insert(self, -1, elem)\n      children.foreach(_ ! CopyTo(treeNode))\n  }\n  // optional\n  /** `expected` is the set of ActorRefs whose replies we are waiting for,\n    * `insertConfirmed` tracks whether the copy of this node to the new tree has been confirmed.\n    */\n  def copying(expected: Set[ActorRef], insertConfirmed: Boolean): Receive = {\n    case o: Operation =>\n  }\n\n\n}\n"}]}}
+[2019-05-04 18:36:31,266] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala","version":2288},"contentChanges":[{"text":"/**\n * Copyright (C) 2009-2013 Typesafe Inc. <http://www.typesafe.com>\n */\npackage actorbintree\n\nimport akka.actor._\nimport scala.collection.immutable.Queue\n\nobject BinaryTreeSet {\n\n  trait Operation {\n    def requester: ActorRef\n    def id: Int\n    def elem: Int\n  }\n\n  trait OperationReply {\n    def id: Int\n  }\n\n  /** Request with identifier `id` to insert an element `elem` into the tree.\n    * The actor at reference `requester` should be notified when this operation\n    * is completed.\n    */\n  case class Insert(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request with identifier `id` to check whether an element `elem` is present\n    * in the tree. The actor at reference `requester` should be notified when\n    * this operation is completed.\n    */\n  case class Contains(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request with identifier `id` to remove the element `elem` from the tree.\n    * The actor at reference `requester` should be notified when this operation\n    * is completed.\n    */\n  case class Remove(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request to perform garbage collection*/\n  case object GC\n\n  /** Holds the answer to the Contains request with identifier `id`.\n    * `result` is true if and only if the element is present in the tree.\n    */\n  case class ContainsResult(id: Int, result: Boolean) extends OperationReply\n\n  /** Message to signal successful completion of an insert or remove operation. */\n  case class OperationFinished(id: Int) extends OperationReply\n\n}\n\n\nclass BinaryTreeSet extends Actor {\n  import BinaryTreeSet._\n  import BinaryTreeNode._\n\n  def createRoot: ActorRef = context.actorOf(BinaryTreeNode.props(0, initiallyRemoved = true))\n\n  var root = createRoot\n\n  // optional\n  var pendingQueue = Queue.empty[Operation]\n\n  // optional\n  def receive = normal\n\n  // optional\n  /** Accepts `Operation` and `GC` messages. */\n  val normal: Receive = { \n    case o: Operation => root ! o\n    case GC => {\n      val newRoot = createRoot\n      context become(garbageCollecting(newRoot), false)\n      root ! CopyTo(newRoot)\n    }\n\n  // optional\n  /** Handles messages while garbage collection is performed.\n    * `newRoot` is the root of the new binary tree where we want to copy\n    * all non-removed elements into.\n    */\n  def garbageCollecting(newRoot: ActorRef): Receive = {\n    //Giving the newRoot allows copying and forwarding operations when we are done\n\n    case op: Operation => pendingQueue enqueue op //Save operations to do (and in their correct order: FIFO)\n    case CopyFinished => {\n      pendingQueue.foreach(newRoot ! _) //Processing all pending operations on the new root\n      root = newRoot //Setting the root to newRoot\n      pendingQueue = Queue.empty //Removing all awaiting operations\n      context unbecome //Popping the GC state\n\n    }\n  }\n\n}\n\nobject BinaryTreeNode {\n  trait Position\n\n  case object Left extends Position\n  case object Right extends Position\n\n  case class CopyTo(treeNode: ActorRef)\n  case object CopyFinished\n\n  def props(elem: Int, initiallyRemoved: Boolean) = Props(classOf[BinaryTreeNode],  elem, initiallyRemoved)\n}\n\nclass BinaryTreeNode(val elem: Int, initiallyRemoved: Boolean) extends Actor {\n  import BinaryTreeNode._\n  import BinaryTreeSet._\n\n  var subtrees = Map[Position, ActorRef]()\n  var removed = initiallyRemoved\n\n  def nextNode(e: Int): Position = if(e > elem) Right else Left\n\n  // optional\n  def receive = normal\n\n  // optional\n  /** Handles `Operation` messages and `CopyTo` requests. */\n  val normal: Receive = { \n    case Insert => insert\n  \n    case Contains(r, id, e) => if(elem == e && !removed) r ! ContainsResult(id, true) else subtrees(nextNode(e)) match {\n                case None => \n    }\n    case Remove(r, id, e) => if(e == elem) removed = true else \n    case CopyTo(treeNode) => {treeNode ! Insert(self, , elem) } }\n\n\n  def insert: Receive = {\n     case Insert(r, id, e) => \n      if(e == elem) {\n      removed = false\n  }\n\n  def contains: Receive = {\n    case Contains(r, id, e) => {\n      if(elem == e && !removed) r ! ContainsResult(id, true) else subtrees(nextNode(e)) match {}\n    }\n  }\n  def remove: Receive = {\n    case Remove(r, id, e) => {\n        if(e == elem) removed = true else {\n          subtrees get nextNode(e) match {\n            case None => r ! \n            case Some(node) => node ! Remove(r, id, e)\n          }\n        }\n    }\n  }\n\n\n  def CopyTo: Receive = {\n    case CopyTo(treeNode) => {\n      val children = subtrees.values\n      if(!removed) treeNode ! Insert(self, -1, elem)\n      children.foreach(_ ! CopyTo(treeNode))\n  }\n  // optional\n  /** `expected` is the set of ActorRefs whose replies we are waiting for,\n    * `insertConfirmed` tracks whether the copy of this node to the new tree has been confirmed.\n    */\n  def copying(expected: Set[ActorRef], insertConfirmed: Boolean): Receive = {\n    case o: Operation =>\n  }\n\n\n}\n"}]}}
+[2019-05-04 18:36:31,277] ERROR langserver.core.Connection - failed notification handler
+java.lang.NullPointerException: null
+	at org.github.dragos.vscode.EnsimeLanguageServer.onChangeTextDocument(EnsimeLanguageServer.scala:167)
+	at langserver.core.LanguageServer.$anonfun$new$1(LanguageServer.scala:42)
+	at langserver.core.LanguageServer.$anonfun$new$1$adapted(LanguageServer.scala:40)
+	at langserver.core.Connection.$anonfun$notifySubscribers$2(Connection.scala:42)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at langserver.core.Connection.$anonfun$notifySubscribers$1(Connection.scala:42)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.generic.TraversableForwarder.foreach(TraversableForwarder.scala:35)
+	at scala.collection.generic.TraversableForwarder.foreach$(TraversableForwarder.scala:35)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:44)
+	at langserver.core.Connection.notifySubscribers(Connection.scala:41)
+	at langserver.core.Connection.$anonfun$start$4(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$4$adapted(Connection.scala:99)
+	at play.api.libs.json.JsSuccess.fold(JsResult.scala:15)
+	at langserver.core.Connection.$anonfun$start$2(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$2$adapted(Connection.scala:97)
+	at scala.Option.fold(Option.scala:158)
+	at langserver.core.Connection.start(Connection.scala:97)
+	at langserver.core.LanguageServer.start(LanguageServer.scala:50)
+	at org.github.dragos.vscode.EnsimeLanguageServer.start(EnsimeLanguageServer.scala:51)
+	at org.github.dragos.vscode.Main$.main(Main.scala:23)
+	at org.github.dragos.vscode.Main.main(Main.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at coursier.cli.qn.a(Unknown Source)
+	at coursier.cli.qm.i(Unknown Source)
+	at coursier.cli.qs.a(Unknown Source)
+	at c.g.a.c(Unknown Source)
+	at a.b.d_(Unknown Source)
+	at c.b.d.E.g(Unknown Source)
+	at c.b.e.aU.g(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.qm.b(Unknown Source)
+	at coursier.cli.M.b(Unknown Source)
+	at a.J.d_(Unknown Source)
+	at c.E.h(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.Coursier.main(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at coursier.Bootstrap.main(Bootstrap.java:412)
+[2019-05-04 18:36:31,277] ERROR langserver.core.Connection - failed notification handler
+java.lang.NullPointerException: null
+	at org.github.dragos.vscode.EnsimeLanguageServer.onChangeTextDocument(EnsimeLanguageServer.scala:167)
+	at langserver.core.LanguageServer.$anonfun$new$1(LanguageServer.scala:42)
+	at langserver.core.LanguageServer.$anonfun$new$1$adapted(LanguageServer.scala:40)
+	at langserver.core.Connection.$anonfun$notifySubscribers$2(Connection.scala:42)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at langserver.core.Connection.$anonfun$notifySubscribers$1(Connection.scala:42)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.generic.TraversableForwarder.foreach(TraversableForwarder.scala:35)
+	at scala.collection.generic.TraversableForwarder.foreach$(TraversableForwarder.scala:35)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:44)
+	at langserver.core.Connection.notifySubscribers(Connection.scala:41)
+	at langserver.core.Connection.$anonfun$start$4(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$4$adapted(Connection.scala:99)
+	at play.api.libs.json.JsSuccess.fold(JsResult.scala:15)
+	at langserver.core.Connection.$anonfun$start$2(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$2$adapted(Connection.scala:97)
+	at scala.Option.fold(Option.scala:158)
+	at langserver.core.Connection.start(Connection.scala:97)
+	at langserver.core.LanguageServer.start(LanguageServer.scala:50)
+	at org.github.dragos.vscode.EnsimeLanguageServer.start(EnsimeLanguageServer.scala:51)
+	at org.github.dragos.vscode.Main$.main(Main.scala:23)
+	at org.github.dragos.vscode.Main.main(Main.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at coursier.cli.qn.a(Unknown Source)
+	at coursier.cli.qm.i(Unknown Source)
+	at coursier.cli.qs.a(Unknown Source)
+	at c.g.a.c(Unknown Source)
+	at a.b.d_(Unknown Source)
+	at c.b.d.E.g(Unknown Source)
+	at c.b.e.aU.g(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.qm.b(Unknown Source)
+	at coursier.cli.M.b(Unknown Source)
+	at a.J.d_(Unknown Source)
+	at c.E.h(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.Coursier.main(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at coursier.Bootstrap.main(Bootstrap.java:412)
+[2019-05-04 18:36:31,580] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 5340
+[2019-05-04 18:36:31,580] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 5340
+[2019-05-04 18:36:31,583] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala","version":2289},"contentChanges":[{"text":"/**\n * Copyright (C) 2009-2013 Typesafe Inc. <http://www.typesafe.com>\n */\npackage actorbintree\n\nimport akka.actor._\nimport scala.collection.immutable.Queue\n\nobject BinaryTreeSet {\n\n  trait Operation {\n    def requester: ActorRef\n    def id: Int\n    def elem: Int\n  }\n\n  trait OperationReply {\n    def id: Int\n  }\n\n  /** Request with identifier `id` to insert an element `elem` into the tree.\n    * The actor at reference `requester` should be notified when this operation\n    * is completed.\n    */\n  case class Insert(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request with identifier `id` to check whether an element `elem` is present\n    * in the tree. The actor at reference `requester` should be notified when\n    * this operation is completed.\n    */\n  case class Contains(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request with identifier `id` to remove the element `elem` from the tree.\n    * The actor at reference `requester` should be notified when this operation\n    * is completed.\n    */\n  case class Remove(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request to perform garbage collection*/\n  case object GC\n\n  /** Holds the answer to the Contains request with identifier `id`.\n    * `result` is true if and only if the element is present in the tree.\n    */\n  case class ContainsResult(id: Int, result: Boolean) extends OperationReply\n\n  /** Message to signal successful completion of an insert or remove operation. */\n  case class OperationFinished(id: Int) extends OperationReply\n\n}\n\n\nclass BinaryTreeSet extends Actor {\n  import BinaryTreeSet._\n  import BinaryTreeNode._\n\n  def createRoot: ActorRef = context.actorOf(BinaryTreeNode.props(0, initiallyRemoved = true))\n\n  var root = createRoot\n\n  // optional\n  var pendingQueue = Queue.empty[Operation]\n\n  // optional\n  def receive = normal\n\n  // optional\n  /** Accepts `Operation` and `GC` messages. */\n  val normal: Receive = { \n    case o: Operation => root ! o\n    case GC => {\n      val newRoot = createRoot\n      context become(garbageCollecting(newRoot), false)\n      root ! CopyTo(newRoot)\n    }\n\n  // optional\n  /** Handles messages while garbage collection is performed.\n    * `newRoot` is the root of the new binary tree where we want to copy\n    * all non-removed elements into.\n    */\n  def garbageCollecting(newRoot: ActorRef): Receive = {\n    //Giving the newRoot allows copying and forwarding operations when we are done\n\n    case op: Operation => pendingQueue enqueue op //Save operations to do (and in their correct order: FIFO)\n    case CopyFinished => {\n      pendingQueue.foreach(newRoot ! _) //Processing all pending operations on the new root\n      root = newRoot //Setting the root to newRoot\n      pendingQueue = Queue.empty //Removing all awaiting operations\n      context unbecome //Popping the GC state\n\n    }\n  }\n\n}\n\nobject BinaryTreeNode {\n  trait Position\n\n  case object Left extends Position\n  case object Right extends Position\n\n  case class CopyTo(treeNode: ActorRef)\n  case object CopyFinished\n\n  def props(elem: Int, initiallyRemoved: Boolean) = Props(classOf[BinaryTreeNode],  elem, initiallyRemoved)\n}\n\nclass BinaryTreeNode(val elem: Int, initiallyRemoved: Boolean) extends Actor {\n  import BinaryTreeNode._\n  import BinaryTreeSet._\n\n  var subtrees = Map[Position, ActorRef]()\n  var removed = initiallyRemoved\n\n  def nextNode(e: Int): Position = if(e > elem) Right else Left\n\n  // optional\n  def receive = normal\n\n  // optional\n  /** Handles `Operation` messages and `CopyTo` requests. */\n  val normal: Receive = { \n    case Insert => insert\n\n    case Contains(r, id, e) => if(elem == e && !removed) r ! ContainsResult(id, true) else subtrees(nextNode(e)) match {\n                case None => \n    }\n    case Remove(r, id, e) => if(e == elem) removed = true else \n    case CopyTo(treeNode) => {treeNode ! Insert(self, , elem) } }\n\n\n  def insert: Receive = {\n     case Insert(r, id, e) => \n      if(e == elem) {\n      removed = false\n  }\n\n  def contains: Receive = {\n    case Contains(r, id, e) => {\n      if(elem == e && !removed) r ! ContainsResult(id, true) else subtrees(nextNode(e)) match {}\n    }\n  }\n  def remove: Receive = {\n    case Remove(r, id, e) => {\n        if(e == elem) removed = true else {\n          subtrees get nextNode(e) match {\n            case None => r ! \n            case Some(node) => node ! Remove(r, id, e)\n          }\n        }\n    }\n  }\n\n\n  def CopyTo: Receive = {\n    case CopyTo(treeNode) => {\n      val children = subtrees.values\n      if(!removed) treeNode ! Insert(self, -1, elem)\n      children.foreach(_ ! CopyTo(treeNode))\n  }\n  // optional\n  /** `expected` is the set of ActorRefs whose replies we are waiting for,\n    * `insertConfirmed` tracks whether the copy of this node to the new tree has been confirmed.\n    */\n  def copying(expected: Set[ActorRef], insertConfirmed: Boolean): Receive = {\n    case o: Operation =>\n  }\n\n\n}\n"}]}}
+[2019-05-04 18:36:31,583] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala","version":2289},"contentChanges":[{"text":"/**\n * Copyright (C) 2009-2013 Typesafe Inc. <http://www.typesafe.com>\n */\npackage actorbintree\n\nimport akka.actor._\nimport scala.collection.immutable.Queue\n\nobject BinaryTreeSet {\n\n  trait Operation {\n    def requester: ActorRef\n    def id: Int\n    def elem: Int\n  }\n\n  trait OperationReply {\n    def id: Int\n  }\n\n  /** Request with identifier `id` to insert an element `elem` into the tree.\n    * The actor at reference `requester` should be notified when this operation\n    * is completed.\n    */\n  case class Insert(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request with identifier `id` to check whether an element `elem` is present\n    * in the tree. The actor at reference `requester` should be notified when\n    * this operation is completed.\n    */\n  case class Contains(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request with identifier `id` to remove the element `elem` from the tree.\n    * The actor at reference `requester` should be notified when this operation\n    * is completed.\n    */\n  case class Remove(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request to perform garbage collection*/\n  case object GC\n\n  /** Holds the answer to the Contains request with identifier `id`.\n    * `result` is true if and only if the element is present in the tree.\n    */\n  case class ContainsResult(id: Int, result: Boolean) extends OperationReply\n\n  /** Message to signal successful completion of an insert or remove operation. */\n  case class OperationFinished(id: Int) extends OperationReply\n\n}\n\n\nclass BinaryTreeSet extends Actor {\n  import BinaryTreeSet._\n  import BinaryTreeNode._\n\n  def createRoot: ActorRef = context.actorOf(BinaryTreeNode.props(0, initiallyRemoved = true))\n\n  var root = createRoot\n\n  // optional\n  var pendingQueue = Queue.empty[Operation]\n\n  // optional\n  def receive = normal\n\n  // optional\n  /** Accepts `Operation` and `GC` messages. */\n  val normal: Receive = { \n    case o: Operation => root ! o\n    case GC => {\n      val newRoot = createRoot\n      context become(garbageCollecting(newRoot), false)\n      root ! CopyTo(newRoot)\n    }\n\n  // optional\n  /** Handles messages while garbage collection is performed.\n    * `newRoot` is the root of the new binary tree where we want to copy\n    * all non-removed elements into.\n    */\n  def garbageCollecting(newRoot: ActorRef): Receive = {\n    //Giving the newRoot allows copying and forwarding operations when we are done\n\n    case op: Operation => pendingQueue enqueue op //Save operations to do (and in their correct order: FIFO)\n    case CopyFinished => {\n      pendingQueue.foreach(newRoot ! _) //Processing all pending operations on the new root\n      root = newRoot //Setting the root to newRoot\n      pendingQueue = Queue.empty //Removing all awaiting operations\n      context unbecome //Popping the GC state\n\n    }\n  }\n\n}\n\nobject BinaryTreeNode {\n  trait Position\n\n  case object Left extends Position\n  case object Right extends Position\n\n  case class CopyTo(treeNode: ActorRef)\n  case object CopyFinished\n\n  def props(elem: Int, initiallyRemoved: Boolean) = Props(classOf[BinaryTreeNode],  elem, initiallyRemoved)\n}\n\nclass BinaryTreeNode(val elem: Int, initiallyRemoved: Boolean) extends Actor {\n  import BinaryTreeNode._\n  import BinaryTreeSet._\n\n  var subtrees = Map[Position, ActorRef]()\n  var removed = initiallyRemoved\n\n  def nextNode(e: Int): Position = if(e > elem) Right else Left\n\n  // optional\n  def receive = normal\n\n  // optional\n  /** Handles `Operation` messages and `CopyTo` requests. */\n  val normal: Receive = { \n    case Insert => insert\n\n    case Contains(r, id, e) => if(elem == e && !removed) r ! ContainsResult(id, true) else subtrees(nextNode(e)) match {\n                case None => \n    }\n    case Remove(r, id, e) => if(e == elem) removed = true else \n    case CopyTo(treeNode) => {treeNode ! Insert(self, , elem) } }\n\n\n  def insert: Receive = {\n     case Insert(r, id, e) => \n      if(e == elem) {\n      removed = false\n  }\n\n  def contains: Receive = {\n    case Contains(r, id, e) => {\n      if(elem == e && !removed) r ! ContainsResult(id, true) else subtrees(nextNode(e)) match {}\n    }\n  }\n  def remove: Receive = {\n    case Remove(r, id, e) => {\n        if(e == elem) removed = true else {\n          subtrees get nextNode(e) match {\n            case None => r ! \n            case Some(node) => node ! Remove(r, id, e)\n          }\n        }\n    }\n  }\n\n\n  def CopyTo: Receive = {\n    case CopyTo(treeNode) => {\n      val children = subtrees.values\n      if(!removed) treeNode ! Insert(self, -1, elem)\n      children.foreach(_ ! CopyTo(treeNode))\n  }\n  // optional\n  /** `expected` is the set of ActorRefs whose replies we are waiting for,\n    * `insertConfirmed` tracks whether the copy of this node to the new tree has been confirmed.\n    */\n  def copying(expected: Set[ActorRef], insertConfirmed: Boolean): Receive = {\n    case o: Operation =>\n  }\n\n\n}\n"}]}}
+[2019-05-04 18:36:31,588] ERROR langserver.core.Connection - failed notification handler
+java.lang.NullPointerException: null
+	at org.github.dragos.vscode.EnsimeLanguageServer.onChangeTextDocument(EnsimeLanguageServer.scala:167)
+	at langserver.core.LanguageServer.$anonfun$new$1(LanguageServer.scala:42)
+	at langserver.core.LanguageServer.$anonfun$new$1$adapted(LanguageServer.scala:40)
+	at langserver.core.Connection.$anonfun$notifySubscribers$2(Connection.scala:42)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at langserver.core.Connection.$anonfun$notifySubscribers$1(Connection.scala:42)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.generic.TraversableForwarder.foreach(TraversableForwarder.scala:35)
+	at scala.collection.generic.TraversableForwarder.foreach$(TraversableForwarder.scala:35)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:44)
+	at langserver.core.Connection.notifySubscribers(Connection.scala:41)
+	at langserver.core.Connection.$anonfun$start$4(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$4$adapted(Connection.scala:99)
+	at play.api.libs.json.JsSuccess.fold(JsResult.scala:15)
+	at langserver.core.Connection.$anonfun$start$2(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$2$adapted(Connection.scala:97)
+	at scala.Option.fold(Option.scala:158)
+	at langserver.core.Connection.start(Connection.scala:97)
+	at langserver.core.LanguageServer.start(LanguageServer.scala:50)
+	at org.github.dragos.vscode.EnsimeLanguageServer.start(EnsimeLanguageServer.scala:51)
+	at org.github.dragos.vscode.Main$.main(Main.scala:23)
+	at org.github.dragos.vscode.Main.main(Main.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at coursier.cli.qn.a(Unknown Source)
+	at coursier.cli.qm.i(Unknown Source)
+	at coursier.cli.qs.a(Unknown Source)
+	at c.g.a.c(Unknown Source)
+	at a.b.d_(Unknown Source)
+	at c.b.d.E.g(Unknown Source)
+	at c.b.e.aU.g(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.qm.b(Unknown Source)
+	at coursier.cli.M.b(Unknown Source)
+	at a.J.d_(Unknown Source)
+	at c.E.h(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.Coursier.main(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at coursier.Bootstrap.main(Bootstrap.java:412)
+[2019-05-04 18:36:31,588] ERROR langserver.core.Connection - failed notification handler
+java.lang.NullPointerException: null
+	at org.github.dragos.vscode.EnsimeLanguageServer.onChangeTextDocument(EnsimeLanguageServer.scala:167)
+	at langserver.core.LanguageServer.$anonfun$new$1(LanguageServer.scala:42)
+	at langserver.core.LanguageServer.$anonfun$new$1$adapted(LanguageServer.scala:40)
+	at langserver.core.Connection.$anonfun$notifySubscribers$2(Connection.scala:42)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at langserver.core.Connection.$anonfun$notifySubscribers$1(Connection.scala:42)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.generic.TraversableForwarder.foreach(TraversableForwarder.scala:35)
+	at scala.collection.generic.TraversableForwarder.foreach$(TraversableForwarder.scala:35)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:44)
+	at langserver.core.Connection.notifySubscribers(Connection.scala:41)
+	at langserver.core.Connection.$anonfun$start$4(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$4$adapted(Connection.scala:99)
+	at play.api.libs.json.JsSuccess.fold(JsResult.scala:15)
+	at langserver.core.Connection.$anonfun$start$2(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$2$adapted(Connection.scala:97)
+	at scala.Option.fold(Option.scala:158)
+	at langserver.core.Connection.start(Connection.scala:97)
+	at langserver.core.LanguageServer.start(LanguageServer.scala:50)
+	at org.github.dragos.vscode.EnsimeLanguageServer.start(EnsimeLanguageServer.scala:51)
+	at org.github.dragos.vscode.Main$.main(Main.scala:23)
+	at org.github.dragos.vscode.Main.main(Main.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at coursier.cli.qn.a(Unknown Source)
+	at coursier.cli.qm.i(Unknown Source)
+	at coursier.cli.qs.a(Unknown Source)
+	at c.g.a.c(Unknown Source)
+	at a.b.d_(Unknown Source)
+	at c.b.d.E.g(Unknown Source)
+	at c.b.e.aU.g(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.qm.b(Unknown Source)
+	at coursier.cli.M.b(Unknown Source)
+	at a.J.d_(Unknown Source)
+	at c.E.h(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.Coursier.main(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at coursier.Bootstrap.main(Bootstrap.java:412)
+[2019-05-04 18:36:31,713] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 193
+[2019-05-04 18:36:31,713] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 193
+[2019-05-04 18:36:31,715] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":39,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"}}}
+[2019-05-04 18:36:31,715] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":39,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"}}}
+[2019-05-04 18:36:31,718] DEBUG langserver.core.MessageWriter - Content-Length: 37
+
+
+
+{"jsonrpc":"2.0","result":[],"id":39}
+[2019-05-04 18:36:31,718] DEBUG langserver.core.MessageWriter - Content-Length: 37
+
+
+
+{"jsonrpc":"2.0","result":[],"id":39}
+[2019-05-04 18:36:31,726] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":[],"id":39}
+[2019-05-04 18:36:31,726] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":[],"id":39}
+[2019-05-04 18:36:31,997] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 5338
+[2019-05-04 18:36:31,997] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 5338
+[2019-05-04 18:36:31,999] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala","version":2290},"contentChanges":[{"text":"/**\n * Copyright (C) 2009-2013 Typesafe Inc. <http://www.typesafe.com>\n */\npackage actorbintree\n\nimport akka.actor._\nimport scala.collection.immutable.Queue\n\nobject BinaryTreeSet {\n\n  trait Operation {\n    def requester: ActorRef\n    def id: Int\n    def elem: Int\n  }\n\n  trait OperationReply {\n    def id: Int\n  }\n\n  /** Request with identifier `id` to insert an element `elem` into the tree.\n    * The actor at reference `requester` should be notified when this operation\n    * is completed.\n    */\n  case class Insert(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request with identifier `id` to check whether an element `elem` is present\n    * in the tree. The actor at reference `requester` should be notified when\n    * this operation is completed.\n    */\n  case class Contains(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request with identifier `id` to remove the element `elem` from the tree.\n    * The actor at reference `requester` should be notified when this operation\n    * is completed.\n    */\n  case class Remove(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request to perform garbage collection*/\n  case object GC\n\n  /** Holds the answer to the Contains request with identifier `id`.\n    * `result` is true if and only if the element is present in the tree.\n    */\n  case class ContainsResult(id: Int, result: Boolean) extends OperationReply\n\n  /** Message to signal successful completion of an insert or remove operation. */\n  case class OperationFinished(id: Int) extends OperationReply\n\n}\n\n\nclass BinaryTreeSet extends Actor {\n  import BinaryTreeSet._\n  import BinaryTreeNode._\n\n  def createRoot: ActorRef = context.actorOf(BinaryTreeNode.props(0, initiallyRemoved = true))\n\n  var root = createRoot\n\n  // optional\n  var pendingQueue = Queue.empty[Operation]\n\n  // optional\n  def receive = normal\n\n  // optional\n  /** Accepts `Operation` and `GC` messages. */\n  val normal: Receive = { \n    case o: Operation => root ! o\n    case GC => {\n      val newRoot = createRoot\n      context become(garbageCollecting(newRoot), false)\n      root ! CopyTo(newRoot)\n    }\n\n  // optional\n  /** Handles messages while garbage collection is performed.\n    * `newRoot` is the root of the new binary tree where we want to copy\n    * all non-removed elements into.\n    */\n  def garbageCollecting(newRoot: ActorRef): Receive = {\n    //Giving the newRoot allows copying and forwarding operations when we are done\n\n    case op: Operation => pendingQueue enqueue op //Save operations to do (and in their correct order: FIFO)\n    case CopyFinished => {\n      pendingQueue.foreach(newRoot ! _) //Processing all pending operations on the new root\n      root = newRoot //Setting the root to newRoot\n      pendingQueue = Queue.empty //Removing all awaiting operations\n      context unbecome //Popping the GC state\n\n    }\n  }\n\n}\n\nobject BinaryTreeNode {\n  trait Position\n\n  case object Left extends Position\n  case object Right extends Position\n\n  case class CopyTo(treeNode: ActorRef)\n  case object CopyFinished\n\n  def props(elem: Int, initiallyRemoved: Boolean) = Props(classOf[BinaryTreeNode],  elem, initiallyRemoved)\n}\n\nclass BinaryTreeNode(val elem: Int, initiallyRemoved: Boolean) extends Actor {\n  import BinaryTreeNode._\n  import BinaryTreeSet._\n\n  var subtrees = Map[Position, ActorRef]()\n  var removed = initiallyRemoved\n\n  def nextNode(e: Int): Position = if(e > elem) Right else Left\n\n  // optional\n  def receive = normal\n\n  // optional\n  /** Handles `Operation` messages and `CopyTo` requests. */\n  val normal: Receive = { \n    case Insert => insert\n    case Contains(r, id, e) => if(elem == e && !removed) r ! ContainsResult(id, true) else subtrees(nextNode(e)) match {\n                case None => \n    }\n    case Remove(r, id, e) => if(e == elem) removed = true else \n    case CopyTo(treeNode) => {treeNode ! Insert(self, , elem) } }\n\n\n  def insert: Receive = {\n     case Insert(r, id, e) => \n      if(e == elem) {\n      removed = false\n  }\n\n  def contains: Receive = {\n    case Contains(r, id, e) => {\n      if(elem == e && !removed) r ! ContainsResult(id, true) else subtrees(nextNode(e)) match {}\n    }\n  }\n  def remove: Receive = {\n    case Remove(r, id, e) => {\n        if(e == elem) removed = true else {\n          subtrees get nextNode(e) match {\n            case None => r ! \n            case Some(node) => node ! Remove(r, id, e)\n          }\n        }\n    }\n  }\n\n\n  def CopyTo: Receive = {\n    case CopyTo(treeNode) => {\n      val children = subtrees.values\n      if(!removed) treeNode ! Insert(self, -1, elem)\n      children.foreach(_ ! CopyTo(treeNode))\n  }\n  // optional\n  /** `expected` is the set of ActorRefs whose replies we are waiting for,\n    * `insertConfirmed` tracks whether the copy of this node to the new tree has been confirmed.\n    */\n  def copying(expected: Set[ActorRef], insertConfirmed: Boolean): Receive = {\n    case o: Operation =>\n  }\n\n\n}\n"}]}}
+[2019-05-04 18:36:31,999] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala","version":2290},"contentChanges":[{"text":"/**\n * Copyright (C) 2009-2013 Typesafe Inc. <http://www.typesafe.com>\n */\npackage actorbintree\n\nimport akka.actor._\nimport scala.collection.immutable.Queue\n\nobject BinaryTreeSet {\n\n  trait Operation {\n    def requester: ActorRef\n    def id: Int\n    def elem: Int\n  }\n\n  trait OperationReply {\n    def id: Int\n  }\n\n  /** Request with identifier `id` to insert an element `elem` into the tree.\n    * The actor at reference `requester` should be notified when this operation\n    * is completed.\n    */\n  case class Insert(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request with identifier `id` to check whether an element `elem` is present\n    * in the tree. The actor at reference `requester` should be notified when\n    * this operation is completed.\n    */\n  case class Contains(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request with identifier `id` to remove the element `elem` from the tree.\n    * The actor at reference `requester` should be notified when this operation\n    * is completed.\n    */\n  case class Remove(requester: ActorRef, id: Int, elem: Int) extends Operation\n\n  /** Request to perform garbage collection*/\n  case object GC\n\n  /** Holds the answer to the Contains request with identifier `id`.\n    * `result` is true if and only if the element is present in the tree.\n    */\n  case class ContainsResult(id: Int, result: Boolean) extends OperationReply\n\n  /** Message to signal successful completion of an insert or remove operation. */\n  case class OperationFinished(id: Int) extends OperationReply\n\n}\n\n\nclass BinaryTreeSet extends Actor {\n  import BinaryTreeSet._\n  import BinaryTreeNode._\n\n  def createRoot: ActorRef = context.actorOf(BinaryTreeNode.props(0, initiallyRemoved = true))\n\n  var root = createRoot\n\n  // optional\n  var pendingQueue = Queue.empty[Operation]\n\n  // optional\n  def receive = normal\n\n  // optional\n  /** Accepts `Operation` and `GC` messages. */\n  val normal: Receive = { \n    case o: Operation => root ! o\n    case GC => {\n      val newRoot = createRoot\n      context become(garbageCollecting(newRoot), false)\n      root ! CopyTo(newRoot)\n    }\n\n  // optional\n  /** Handles messages while garbage collection is performed.\n    * `newRoot` is the root of the new binary tree where we want to copy\n    * all non-removed elements into.\n    */\n  def garbageCollecting(newRoot: ActorRef): Receive = {\n    //Giving the newRoot allows copying and forwarding operations when we are done\n\n    case op: Operation => pendingQueue enqueue op //Save operations to do (and in their correct order: FIFO)\n    case CopyFinished => {\n      pendingQueue.foreach(newRoot ! _) //Processing all pending operations on the new root\n      root = newRoot //Setting the root to newRoot\n      pendingQueue = Queue.empty //Removing all awaiting operations\n      context unbecome //Popping the GC state\n\n    }\n  }\n\n}\n\nobject BinaryTreeNode {\n  trait Position\n\n  case object Left extends Position\n  case object Right extends Position\n\n  case class CopyTo(treeNode: ActorRef)\n  case object CopyFinished\n\n  def props(elem: Int, initiallyRemoved: Boolean) = Props(classOf[BinaryTreeNode],  elem, initiallyRemoved)\n}\n\nclass BinaryTreeNode(val elem: Int, initiallyRemoved: Boolean) extends Actor {\n  import BinaryTreeNode._\n  import BinaryTreeSet._\n\n  var subtrees = Map[Position, ActorRef]()\n  var removed = initiallyRemoved\n\n  def nextNode(e: Int): Position = if(e > elem) Right else Left\n\n  // optional\n  def receive = normal\n\n  // optional\n  /** Handles `Operation` messages and `CopyTo` requests. */\n  val normal: Receive = { \n    case Insert => insert\n    case Contains(r, id, e) => if(elem == e && !removed) r ! ContainsResult(id, true) else subtrees(nextNode(e)) match {\n                case None => \n    }\n    case Remove(r, id, e) => if(e == elem) removed = true else \n    case CopyTo(treeNode) => {treeNode ! Insert(self, , elem) } }\n\n\n  def insert: Receive = {\n     case Insert(r, id, e) => \n      if(e == elem) {\n      removed = false\n  }\n\n  def contains: Receive = {\n    case Contains(r, id, e) => {\n      if(elem == e && !removed) r ! ContainsResult(id, true) else subtrees(nextNode(e)) match {}\n    }\n  }\n  def remove: Receive = {\n    case Remove(r, id, e) => {\n        if(e == elem) removed = true else {\n          subtrees get nextNode(e) match {\n            case None => r ! \n            case Some(node) => node ! Remove(r, id, e)\n          }\n        }\n    }\n  }\n\n\n  def CopyTo: Receive = {\n    case CopyTo(treeNode) => {\n      val children = subtrees.values\n      if(!removed) treeNode ! Insert(self, -1, elem)\n      children.foreach(_ ! CopyTo(treeNode))\n  }\n  // optional\n  /** `expected` is the set of ActorRefs whose replies we are waiting for,\n    * `insertConfirmed` tracks whether the copy of this node to the new tree has been confirmed.\n    */\n  def copying(expected: Set[ActorRef], insertConfirmed: Boolean): Receive = {\n    case o: Operation =>\n  }\n\n\n}\n"}]}}
+[2019-05-04 18:36:32,002] ERROR langserver.core.Connection - failed notification handler
+java.lang.NullPointerException: null
+	at org.github.dragos.vscode.EnsimeLanguageServer.onChangeTextDocument(EnsimeLanguageServer.scala:167)
+	at langserver.core.LanguageServer.$anonfun$new$1(LanguageServer.scala:42)
+	at langserver.core.LanguageServer.$anonfun$new$1$adapted(LanguageServer.scala:40)
+	at langserver.core.Connection.$anonfun$notifySubscribers$2(Connection.scala:42)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at langserver.core.Connection.$anonfun$notifySubscribers$1(Connection.scala:42)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.generic.TraversableForwarder.foreach(TraversableForwarder.scala:35)
+	at scala.collection.generic.TraversableForwarder.foreach$(TraversableForwarder.scala:35)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:44)
+	at langserver.core.Connection.notifySubscribers(Connection.scala:41)
+	at langserver.core.Connection.$anonfun$start$4(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$4$adapted(Connection.scala:99)
+	at play.api.libs.json.JsSuccess.fold(JsResult.scala:15)
+	at langserver.core.Connection.$anonfun$start$2(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$2$adapted(Connection.scala:97)
+	at scala.Option.fold(Option.scala:158)
+	at langserver.core.Connection.start(Connection.scala:97)
+	at langserver.core.LanguageServer.start(LanguageServer.scala:50)
+	at org.github.dragos.vscode.EnsimeLanguageServer.start(EnsimeLanguageServer.scala:51)
+	at org.github.dragos.vscode.Main$.main(Main.scala:23)
+	at org.github.dragos.vscode.Main.main(Main.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at coursier.cli.qn.a(Unknown Source)
+	at coursier.cli.qm.i(Unknown Source)
+	at coursier.cli.qs.a(Unknown Source)
+	at c.g.a.c(Unknown Source)
+	at a.b.d_(Unknown Source)
+	at c.b.d.E.g(Unknown Source)
+	at c.b.e.aU.g(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.qm.b(Unknown Source)
+	at coursier.cli.M.b(Unknown Source)
+	at a.J.d_(Unknown Source)
+	at c.E.h(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.Coursier.main(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at coursier.Bootstrap.main(Bootstrap.java:412)
+[2019-05-04 18:36:32,002] ERROR langserver.core.Connection - failed notification handler
+java.lang.NullPointerException: null
+	at org.github.dragos.vscode.EnsimeLanguageServer.onChangeTextDocument(EnsimeLanguageServer.scala:167)
+	at langserver.core.LanguageServer.$anonfun$new$1(LanguageServer.scala:42)
+	at langserver.core.LanguageServer.$anonfun$new$1$adapted(LanguageServer.scala:40)
+	at langserver.core.Connection.$anonfun$notifySubscribers$2(Connection.scala:42)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at langserver.core.Connection.$anonfun$notifySubscribers$1(Connection.scala:42)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.generic.TraversableForwarder.foreach(TraversableForwarder.scala:35)
+	at scala.collection.generic.TraversableForwarder.foreach$(TraversableForwarder.scala:35)
+	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:44)
+	at langserver.core.Connection.notifySubscribers(Connection.scala:41)
+	at langserver.core.Connection.$anonfun$start$4(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$4$adapted(Connection.scala:99)
+	at play.api.libs.json.JsSuccess.fold(JsResult.scala:15)
+	at langserver.core.Connection.$anonfun$start$2(Connection.scala:99)
+	at langserver.core.Connection.$anonfun$start$2$adapted(Connection.scala:97)
+	at scala.Option.fold(Option.scala:158)
+	at langserver.core.Connection.start(Connection.scala:97)
+	at langserver.core.LanguageServer.start(LanguageServer.scala:50)
+	at org.github.dragos.vscode.EnsimeLanguageServer.start(EnsimeLanguageServer.scala:51)
+	at org.github.dragos.vscode.Main$.main(Main.scala:23)
+	at org.github.dragos.vscode.Main.main(Main.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at coursier.cli.qn.a(Unknown Source)
+	at coursier.cli.qm.i(Unknown Source)
+	at coursier.cli.qs.a(Unknown Source)
+	at c.g.a.c(Unknown Source)
+	at a.b.d_(Unknown Source)
+	at c.b.d.E.g(Unknown Source)
+	at c.b.e.aU.g(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.qm.b(Unknown Source)
+	at coursier.cli.M.b(Unknown Source)
+	at a.J.d_(Unknown Source)
+	at c.E.h(Unknown Source)
+	at a.c.a(Unknown Source)
+	at coursier.cli.Coursier.main(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at coursier.Bootstrap.main(Bootstrap.java:412)
+[2019-05-04 18:36:32,130] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 193
+[2019-05-04 18:36:32,130] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 193
+[2019-05-04 18:36:32,133] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":40,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"}}}
+[2019-05-04 18:36:32,133] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":40,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"}}}
+[2019-05-04 18:36:32,135] DEBUG langserver.core.MessageWriter - Content-Length: 37
+
+
+
+{"jsonrpc":"2.0","result":[],"id":40}
+[2019-05-04 18:36:32,135] DEBUG langserver.core.MessageWriter - Content-Length: 37
+
+
+
+{"jsonrpc":"2.0","result":[],"id":40}
+[2019-05-04 18:36:32,136] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":[],"id":40}
+[2019-05-04 18:36:32,136] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","result":[],"id":40}
+[2019-05-04 18:36:32,725] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 223
+[2019-05-04 18:36:32,725] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 223
+[2019-05-04 18:36:32,727] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":41,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":124,"character":29}}}
+[2019-05-04 18:36:32,727] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":41,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///mnt/Shared/prog/cs206-7-actorbintree/src/main/scala/actorbintree/BinaryTreeSet.scala"},"position":{"line":124,"character":29}}}
+[2019-05-04 18:36:32,729] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (124, 29).
+[2019-05-04 18:36:32,729] INFO org.github.dragos.vscode.EnsimeLanguageServer - Got hover request at (124, 29).
+[2019-05-04 18:36:32,730] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:36:32,730] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - TypeAtPointReq future completed: succes? false
+[2019-05-04 18:36:32,731] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:36:32,731] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - DocUriAtPointReq future completed: succes? false
+[2019-05-04 18:36:32,905] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:36:32,905] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 63
+[2019-05-04 18:36:32,908] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":41}}
+[2019-05-04 18:36:32,908] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":41}}
+[2019-05-04 18:36:32,912] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(41)
+[2019-05-04 18:36:32,912] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(41)

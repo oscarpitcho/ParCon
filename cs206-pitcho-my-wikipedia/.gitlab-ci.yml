@@ -1,0 +1,20 @@
+stages:
+  - build
+
+build:
+  stage: build
+  image: lampepfl/moocs-dotty:2019-02-19
+  tags:
+    - scala
+    - sbt
+    - course
+    - dotty
+  only:
+    - api
+    - web
+  script:
+    - sbt packageSubmission
+  artifacts:
+    expire_in: 1 day
+    paths:
+      - submission.jar
